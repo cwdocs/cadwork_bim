@@ -99,6 +99,13 @@ Mit einem Rechtsklick im BMT öffnet sich das Kontext-Menü über welches die Im
     Cadwork bietet Ihnen Werkzeuge für Geometriemanipulationen an. Über **Modifizieren -> Optionen** sind die möglichen Optionen zur Geometriemanipulation der Elementtypen ersichtlich. 
     Wenn z.B. die Geometrie in der IFC-Datei über Flächen beschrieben ist (SurfaceModel -> kein Volumen), können Sie diese zu einem Volumen modifzieren (**Modifizieren -> Optionen -> Mehrere Flächen zu Volumen**). 
 
+    #### Funktionstasten :bulb:
+    Auskonstruierte Bohrungen können über die Funktionstaste **Auskonstruierte Bohrungen durch Bolzen ersetzen (E2D/3D)** zu Bolzen modifiziert werden. Diese Funktion wird ausgeführt, wenn in der auskonstruierten Bohrung ein Radius/Durchmesser erkannt werden kann.
+
+    Eine Reparatur von defekten Acis Volumen kann über die Funktionstaste **Defekte Acis-Volumen korrigieren (E2D/3D)** aufgerufen werden. Wenn möglich wird das Volumen korrigiert.
+
+    Mit der Funktionstaste **Öffnungshüllen an Wände anpassen (E2D/3D)** können Öffnungshüllen an die Dicke der Wand angepasst werden. 
+
 * Durch anklicken der Schaltfläche **BCF-Thema erstellen**, wir der BCF Manager aufgerufen. LINK ZU BCF KAPITEL
 
 ### 4. IFC-Import Einstellungen 
