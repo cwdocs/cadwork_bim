@@ -106,7 +106,7 @@ Mit einem Rechtsklick im BMT öffnet sich das Kontext-Menü über welches die Im
 
     Mit der Funktionstaste **Öffnungshüllen an Wände anpassen (E2D/3D)** können Öffnungshüllen an die Dicke der Wand angepasst werden. 
 
-* Durch anklicken der Schaltfläche **BCF-Thema erstellen**, wir der BCF Manager aufgerufen. LINK ZU BCF KAPITEL
+* Durch anklicken der Schaltfläche **BCF-Thema erstellen**, wir der BCF Manager aufgerufen.
 
 ### 4. IFC-Import Einstellungen 
 #### Bi-direktionale Aktivierung
