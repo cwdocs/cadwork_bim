@@ -54,10 +54,10 @@ extra_css:
 
 extra:
   generator: false
-  copyright: Copyright & copy; 2021 cadwork
+  copyright: Copyright & copy; 2022 cadwork
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Brunner246
+      # link: https://github.com/Brunner246
       name: BIM_Kompendium
   alternate:
     - name: Deutsch
