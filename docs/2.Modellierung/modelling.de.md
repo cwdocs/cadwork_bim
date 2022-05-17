@@ -53,6 +53,14 @@ Die dokumentierten IFC-Typen finden Sie in der IFC Dokumentation von building-sm
 IFC-Typ Zuweisungen unter Benutzereinstellungen -> Liste der Attribute vordefinieren
 ![localized image](../img/type.gif){: style="width:900px"}
 
+### Predefined Type 
+Über **Modifizieren -> BIM… -> Predefined type** können Sie die Typen definieren.
+So kann zum Beispiel ein IfcMember mit dem Type Enum **RAFTER** als Sparren spezifiziert werden. 
+
+Falls kein passender Typ in der Enumeration vorhanden ist, kann dieser auf **USERDEFINED** gesetzt werden und es lässt sich ein benutzerdefinierter Objekttype setzen. 
+
+Vorhandene PredefinedTypes werden beim Import einer IFC-Datei übernommen. 
+
 ## IfcProject - IfcSite
 
 Die Bezeichnung des IfcProject sowie der IfcSite sind in den Projektdaten vorzunehmen. <br>
@@ -60,6 +68,7 @@ Projektdaten -> Allgemein -> **Projektname** (IfcProject)<br>
 Projektdaten -> Projektort -> **Ortsbeschreibung Baustelle** (IfcSite)
 
 ![localized image](../img/de/site.png)
+
 
 
 

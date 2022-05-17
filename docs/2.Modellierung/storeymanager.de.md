@@ -32,7 +32,7 @@ Mit einem Rechtsklick in das BIM-Management-Tool öffnet sich das Kontext-Menü.
 
 ### Rechtsklick in den leeren Bereich
 
-![localized image](../img/new_bldg.png){: style="width:400px"}
+![localized image](../img/de/context3.svg){: style="width:400px"}
 
 1. Erstellen eines neuen Gebäudes, oder ergänzen eine Geschosses im bestehenden Gebäude. 
 2. Verhalten BMT
@@ -46,16 +46,17 @@ Mit einem Rechtsklick in das BIM-Management-Tool öffnet sich das Kontext-Menü.
     ![localized image](../img/de/help.png){: style="width:300px"}
 
 ### Rechtsklick auf Site/Gelände
-![localized image](../img/de/storey_context.png){: style="width:900px"}
+![localized image](../img/de/context1.svg){: style="width:900px"}
 
-1. Projektdaten öffnen
-2. Nullpunkteinstellungen öffnen
+
+1. Projektdaten / globaler Nullpunkt - Einstellungen aufrufen
 3. Geometrie als Gelände definieren
     * Gelände aktivieren (ein geschlossenes Volumen zulässig)
     * Rechtsklick auf Site -> Button Nr.2 wählen
+    * Es kann genau ein Element einem Projekt als Gelände zugeordnet werden.
 
 ### Rechtsklick auf ein bestehendes Gebäude
-![localized image](../img/de/bld_context.png){: style="width:900px"}
+![localized image](../img/de/context4.svg){: style="width:400px"}
 
 
 1. Konfiguration Gebäude/Geschoss <br>

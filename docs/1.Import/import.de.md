@@ -1,7 +1,7 @@
 # IFC Import
 
 Die schnell zunehmende technische Entwicklung im Bauwesen führt zu einer grossen Nachfrage sowie Forderungen eines digitalen Datenaustauschs von Gebäudemodellen.
-Cadwork bietet Ihnen ab der Version 27 umfängliche Möglichkeiten im Datenaustausch mit dem IFC- und BCF-Schema. In diesem Dokument wird jedoch ausschliesslich die Version 28 (2021) behandelt. 
+Cadwork bietet Ihnen ab der Version 27 umfängliche Möglichkeiten im Datenaustausch mit dem IFC- und BCF-Schema. In diesem Dokument wird jedoch ausschliesslich die jeweilig aktuellste Version behandelt. 
 
 Cadwork ist für den Datenaustausch im Schema IFC2x3 zertifiziert.
 
@@ -73,7 +73,7 @@ Mit einem Rechtsklick im BMT öffnet sich das Kontext-Menü über welches die Im
 
 
 ## Das BMT Kontext Menü
-![localized image](../img/de/context.png){: style="width:600px"}
+![localized image](../img/de/context2.svg)
 
 ### 1. Sichtbarkeit 
 * Durch das Anwählen der Schaltflächen wird die Sichtbarkeit der Elemente gesteuert
@@ -116,7 +116,7 @@ Wenn die Bi-direktionale Aktivierung eingeschalten ist, springt der Zeiger in de
 #### IFC Import-Einstellungen
 **Import Dialog - Konfiguration**
 
-![localized image](../img/de/dlg1.png) 
+![localized image](../img/de/dlg7.svg) 
 
 1.	**Öffnungen einschneiden**
     * Definiert ob Öffnungen nach dem Import hart/weich eingeschnitten werden sollen, oder ob das IfcOpeningElement zu einem Element mit dem Typ Öffnung generiert werden soll.
@@ -139,11 +139,9 @@ Wenn die Bi-direktionale Aktivierung eingeschalten ist, springt der Zeiger in de
         * konvertierte Elemente mit erzeugtem Hüllkörper
         * ![localized image](../img/lignum2.png){: style="width:300px"}
 
-6.  **Laden**
-    * Laden der Einstellungsdaten im Benutzer Userprofil.
+6.  **Import der Bauteilfarben über alternative Methode**
+    * In IFC-Dateien werden Farben durch RGB-Werte mit einer sehr großen Anzahl von Farbmöglichkeiten beschrieben, die nur zufällig genau den 256 in cadwork zur Verfügung stehenden Farben entsprechen. In der Regel werden Bauteilfarben aus der IFC-Datei über den cadwork Import eingelesen, mit dem die erkannten RGB-Farben automatisch in eine möglichst passende cadwork-Farbe konvertiert wird. Manche Modelle werden in Viewern dennoch in einer anderen Farbe dargestellt, als sie später im cadwork konvertiert werden. In diesen Fällen können Sie – falls die Farbe für die Konstruktion entscheidend ist – die Farben über einen alternativen Konverter erzeugen lassen, der in manchen Situationen eher die angezeigten Farben übernimmt. Sollte die Konvertierung im ersten Schritt nicht den Vorgaben entsprechen, aktivieren Sie diese Option "Import der Bauteilfarben über alternative Methode" und importieren die Bauteile erneut.
 
-6.  **Speichern**
-    * Speichern zur Verwaltung der Einstellungsdaten im Benutzer Userprofil.
 
 #### IFC Attribut Mapper - PropertyMapping
 

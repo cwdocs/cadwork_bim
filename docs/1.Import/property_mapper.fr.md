@@ -1,6 +1,6 @@
 # Property Mapper
 
-![localized image](../img/de/prop_mapper.png)
+![localized image](../img/fr/propertyMapper.svg)
 
 1. **Fichier IFC sélectionné**
     * Liste déroulante des fichiers IFC connectés à cadwork 3D. On peut choisir celui depuis lequel nous voulons mapper des attributs, s'il y a plusieurs fichiers importés dans le 3D.

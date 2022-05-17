@@ -7,7 +7,7 @@
 La boîte de dialogue de configuration de l'export IFC peut être ouverte via Exporter --> Fichiers... --> engrenage à droite de Fichier IFC.
 
 ## Données du projet
-![localized image](../img/de/config1.png)
+![localized image](../img/fr/dlg1.svg)
 
 [Définition du nom et du lieu du projet](../2.Modellierung/modelling.fr.md#ifcproject-ifcsite)
 
@@ -19,7 +19,7 @@ La boîte de dialogue de configuration de l'export IFC peut être ouverte via Ex
 
 ## Attributs
 
-![localized image](../img/de/config2.png)
+![localized image](../img/fr/dlg2.svg)
 
 1. **IFC-Layer**
     * Avec le layer IFC, divers logiciels offrent une autre possibilité de structurer les données. Il est recommandé d'attribuer l'attribut **Nom**.
@@ -35,7 +35,9 @@ La boîte de dialogue de configuration de l'export IFC peut être ouverte via Ex
 
 Pour les **"utilisateurs avancés"**  il est possible de créer ses propres correspondances entre attributs cadwork et Psets IFC. Il peut s'agir de Psets standard comme par exemple le Pset_BeamCommon, ou de Psets définis par l'utilisateur comme par exemple "Properties_Lumber_XY". Pour se faire, les IfcProperty sont créés dans les attributs utilisateur de cadwork. Par exemple, il peut s'agir de la propriété LoadBearing de l'utilisateur 10. Les propriétés requises pour le pset sont ensuite combinées en un ensemble, dans la boîte de dialogue d'export sous l'onglet "Définition Pset Utilisateur". 
 
-![localized image](../img/de/config3.png)
+![localized image](../img/fr/dlg3.svg)
+
+![localized image](../img/fr/dlg4.svg)
 
 1. **Choix des attributs utilisateur cadwork**
     * Cliquez sur "Ajouter un attribut utilisateur" --> vous pouvez ensuite commencer à définir les correspondances entre les attributs cadwork et les attributs IFC.
@@ -67,7 +69,7 @@ Pour les **"utilisateurs avancés"**  il est possible de créer ses propres corr
 
 ## Niveau de détail (Level of detail - LOD)
 
-![localized image](../img/de/config4.png)
+![localized image](../img/fr/dlg5.svg)
 
 1. **Niveau de détail** 
     * Le niveau de détail des éléments du modèle peut être personnalisé en fonction des besoins en cochant ou décochant les options.
@@ -78,7 +80,7 @@ Pour les **"utilisateurs avancés"**  il est possible de créer ses propres corr
 
 ## Groupe d'éléments
 
-![localized image](../img/de/config5.png){: style="width:900px"}
+![localized image](../img/fr/dlg6.svg){: style="width:900px"}
 
 1. **Combiner éléments (recommandé)**
     * Si des éléments architecturaux avec des composants sont créés dans un fichier 3d (z.B. [Holzrahmenwand](../5.Beispiele/examples.fr.md#plafond-a-ossature-bois)) avec des sous-groupes ou groupes renseignés en fonction des ensembles architecturaux, les éléments associés sont exportés vers le fichier IFC en tant qu'élements combinés, comme par exemple IfcWall.

@@ -71,7 +71,7 @@ In this context menu you also can open the IFC-import-configuration dialogue.
 
 
 ## The BMT context menu
-![localized image](../img/de/context.png){: style="width:600px"}
+![localized image](../img/en/context2.svg)
 
 ### 1. Visibility 
 * Decide which elements are to be displayed.
@@ -107,7 +107,7 @@ If bi-directional activation is enabled, the element activated in 3d is also hig
 #### IFC import-configuration
 **Configuration dialogue**
 
-![localized image](../img/de/dlg1.png) 
+![localized image](../img/en/dlg7.svg) 
 
 1.	**Cut opening**
     * Definition if the opening is to be cut out from the wall container or if the IfcOpeningElement is to be generated as a panel with type opening.
