@@ -7,7 +7,7 @@
 Der IFC-Export Konfigurationsdialog lässt sich via Exportieren --> Dateien... --> IFC-Datei öffnen. 
 
 ## Projektdaten
-![localized image](../img/de/config1.png)
+![localized image](../img/de/dlg1.svg)
 
 [Definition Projektname & Projektort](../2.Modellierung/modelling.de.md#ifcproject-ifcsite)
 
@@ -17,9 +17,12 @@ Der IFC-Export Konfigurationsdialog lässt sich via Exportieren --> Dateien... -
 2. **Projektort**
     * Die Checkbox steuert, ob die Angaben zum Projektort beim IFC-Export übernommen werden. 
 
+3. **Koordinaten IfcSite**
+    * Exportieren der Koordinaten 
+
 ## Attribute
 
-![localized image](../img/de/config2.png)
+![localized image](../img/de/dlg2.svg)
 
 1. **IFC-Layer**
     * Mit dem IFC-Layer bietet sich bei diversen Software eine weitere Möglichkeit zur Strukturierung der Daten. Empfohlen wird die Zuweisung des Attributs **Name**. 
@@ -36,7 +39,9 @@ Der IFC-Export Konfigurationsdialog lässt sich via Exportieren --> Dateien... -
 Für den **"Advanced User"** gibt es die Möglichkeit eigene Psets anzulegen. Dies können entweder Standard-Psets wie z.B. das Pset_BeamCommon, oder benutzerdefinierte wie z.B. "Eigenschaften_Holzbau_XY" sein. 
 Dazu werden in den User-Attributen die IfcProperty angelegt. Dies kann z.B. das Property LoadBearing auf User10 sein. Die für das Pset benötigten Eigenschaften werden dann im Exportdialog unter dem Register "Pset-Defintionen" zu einem Set zusammengefasst. 
 
-![localized image](../img/de/config3.png)
+![localized image](../img/de/dlg3.svg)
+
+![localized image](../img/de/dlg4.svg)
 
 1. **OptionMenu UserAttribute**
     * Klicken Sie auf "Benutzerattribut hinzufügen" --> anschliessend kann mit dem definieren des Eigenschaftenset gestartet werden. 
@@ -50,25 +55,24 @@ Dazu werden in den User-Attributen die IfcProperty angelegt. Dies kann z.B. das 
         IfcBoolean	            | Form mit zwei Zuständen 0 & 1 BOOLEAN                     | True/False, "1" oder "0", WAHR/FALSCH, Ja/Nein, Vrai, Faux
         IfcLabel                | beliebiger Text STRING                                    | Holz, Hersteller      
 
-    * Für die angewählten Attribute kann mit einem Rechtsklick auf den Datentypen (z.B. IfcLabel) der Datentyp definiert werden (für Standard Psets zwingend notwendig). Im IFC Schema ist für jedes Property der Datentyp definiert. Damit die PropertySets korrekt exportiert werden, ist der Datentyp im Exportdialog zu bestimmen (Rechtsklick auf das Property).
+    * Für die angewählten Attribute kann mit einem **Rechtsklick** auf den Datentypen (z.B. IfcLabel) der Datentyp definiert werden (für Standard Psets zwingend notwendig). Im IFC Schema ist für jedes Property der Datentyp definiert. Damit die PropertySets korrekt exportiert werden, ist der Datentyp im Exportdialog zu bestimmen (**Rechtsklick auf das Property**).
 
         ![localized image](../img/pset.gif)
 
-3. **Eigenschaftenset - Name**
+3. **PropertySet - Name**
     * Im Eingabefeld in der mittleren Spalte definieren Sie den Namen des Eigenschaftenset. Das **Prefix Pset_** soll nur für Standard PropertySets aus dem IfcSchema verwendet werden. 
 
-4. **Zuweisung Eigenschaftenset zu IfcTypen**
+4. **Zuweisung PropertySet zu IfcTypen**
     * In der letzten Option Menu-Liste müssen Sie die IFC-Typen auswählen, für die dieses Pset ausgegeben werden soll. So ist es möglich, sehr differenziert Psets für unterschiedliche Bauteile anzulegen.
 
-5. **Laden/Speichern**
-    * Möchten Sie ein einmal angelegtes User Pset löschen, so können Sie am Ende der Zeile auf das Minus-Symbol klicken.
-    * Auf die selbst angelegten User Psets können Sie über die Schaltflächen Laden und Speichern immer wieder zugreifen.
+5. **Standard PropertySet Laden**
+    * StandardPsets für das Schema 2x3 und 4 können über die Schaltfächen geladen werden. Die Properties werden automatisch als Attribute in cadwork angelegt (fortlaufend in der bestehenden Attributsliste).
 
 
 
 ## Detaillierung
 
-![localized image](../img/de/config4.png)
+![localized image](../img/de/dlg5.svg)
 
 1. **Detaillierungsgrad** 
     * Die Detaillierung des Modellinhalts wird über die enthaltenen Checkboxen gesteuert. 
@@ -79,7 +83,7 @@ Dazu werden in den User-Attributen die IfcProperty angelegt. Dies kann z.B. das 
 
 ## Elemente
 
-![localized image](../img/de/config5.png){: style="width:900px"}
+![localized image](../img/de/dlg6.svg){: style="width:900px"}
 
 1. **Elemente zusammenfassen (empfohlen)**
     * Sind in einer 3D-Datei Architekturelemente mit Bauteilen angelegt (z.B. [Holzrahmenwand](../5.Beispiele/examples.de.md#holzrahmenbauwand)) sowie jeweils in Baugruppen oder Bauuntergruppen eingeteilt, so werden die zugehörigen Elemente mit dieser Option zusammengefasst, als z.B. IfcWall, in die IFC-Datei exportiert.

@@ -73,7 +73,7 @@ Un clic droit dans le BMT ouvre le menu contextuel qui permet de définir les pa
 
 
 ## Le menu contextuel du BMT
-![localized image](../img/de/context.png){: style="width:600px"}
+![localized image](../img/fr/context2.svg)
 
 ### 1. Affichage 
 * L'utilisation des ampoules permet de contrôler la visibilité des éléments.
@@ -109,7 +109,7 @@ Lorsque le contrôle bidirectionnelle est activée, l'élement activé dans la f
 #### Paramètres d'import IFC
 **Configuration Import/Export IFC**
 
-![localized image](../img/de/dlg1.png) 
+![localized image](../img/fr/dlg7.svg) 
 
 1.	**Entailler les ouvertures**
     * Définit si les ouvertures doivent être découpées après la conversion des objets IFC connectés en élément cadwork ou si l'élément IfcOpeningElement doit être généré pour devenir un élément de type ouverture.

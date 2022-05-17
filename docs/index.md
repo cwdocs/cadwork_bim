@@ -185,6 +185,10 @@ Die Wahl der richtigen Klasse beim IFC-Export ist daher sehr wichtig: Wird eine 
 
 ![localized image](img/IfcWall.jpg "https://bimsource.de/was-ist-ifc-industry-foundation-classes/"){: style="width:700px"}
 
+### PredefinedType 
+Ab Version 29 sind zusätzlich zu den IFC-Typen auch die Predefined Types eingeführt, die eine weitere Ebene der "Klassifizierung" zur weiteren Unterscheidung von Objekten bieten. Die zur Entität zugehörigen Typen können frei definiert werden und erlauben eine exaktere Beschreibung der Objekte. 
+
+
 ## PropertySet
 Das IfcPropertySet ist ein **Container, der Eigenschaften innerhalb eines „Eigenschaftsbaums“ enthält**. Die Eigenschaften werden in Gruppen organisiert (sog. Psets = Property-Sets). Jede Elementklasse trägt ein typisches Pset, welches die wesentlichsten Merkmale trägt. Dieses Pset wird mit dem Suffix »Common« bezeichnet z.B. Pset_WallCommon oder Pset_BeamCommon.
 Darüber hinaus kann jeder benutzerdefinierte Eigenschaftssatz erfasst werden. Eigenschaftssätze, die nicht als Teil der IFC-Spezifikation deklariert sind, müssen einen Name-Wert haben, der nicht das Präfix "Pset_" enthält. 

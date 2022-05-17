@@ -18,7 +18,7 @@ Die IFC-Datenstruktur erlaubt, in Ergänzung zu den bereits vorhandenen Vorgaben
 [^1]: [BIMcert Handbuch](https://bif.bauwesen.tuwien.ac.at/fortbildung/kurse/aktuelle-kurse/bimcert/)
 
 
-![localized image](../img/de/prop_mapper.png)
+![localized image](../img/de/propertyMapper.svg)
 
 1. **Ausgewählte IFC-Datei**
     * Dropdown Auswahl der geladenen IFC-Dateien in cadwork 3D. Wenn mehrere IFC-Dateien geladen sind, kann über diese Auswahl die zu verwendende ausgewählt werden.
