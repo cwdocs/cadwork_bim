@@ -69,6 +69,16 @@ Projektdaten -> Projektort -> **Ortsbeschreibung Baustelle** (IfcSite)
 
 ![localized image](../img/de/site.png)
 
+## Containerelement - Aggregation
+Mit Hilfe des Containerelements lassen sich in cadwork Elemente zusammenfassen. 
+Nebst dem IfcElementAssembly lassen sich folgende zusammenfassungen generieren:
+
+* IfcDoor
+* IfcStair 
+* IfcWindow 
+* ohne Zusammenfassung
+
+![localized image](../img/de/assembly.jpg)
 
 
 
