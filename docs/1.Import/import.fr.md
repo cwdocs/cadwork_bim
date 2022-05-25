@@ -40,7 +40,7 @@ Vous pourez les convertir en élément cadwork par la suite.
 
 ## Point d'origine global - local
 
-Afin de pouvoir maintenir et traiter les modèles géoréférencés avec la précision requise par cadwork, le point zéro interne est décalé lors de l'import de fichiers IFC géoréférencés. 
+Afin de pouvoir maintenir et traiter des modèles placés sur des coordonnées globales avec la précision requise par cadwork, le point zéro interne est décalé lors de l'importation des fichiers IFC. 
 Des éléments trop éloignés du point zéro entraîneraient des problèmes de précision. 
 Après confirmation du décalage, le vecteur de décalage est enregistré en interne et les coordonnées globales sont enregistrées (Préférences -> Point zéro global).
 

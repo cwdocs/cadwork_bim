@@ -42,9 +42,9 @@ The development stages of BIM provide a clear classification in this respect.
 
 ![localized image](img/entwicklungsstufen.png){: style="width:700px"}
 
-### openBIM[^1]
+### openBIM
 
-openBIM extends the benefits of BIM (Building Information Modeling) by improving the accessibility, usability, management and sustainability of digital data in the construction industry. At its core, openBIM is a collaborative process that is vendor neutral. openBIM processes can be defined as shareable project information that supports seamless collaboration for all project stakeholders. openBIM facilitates interoperability to benefit projects and assets throughout their lifecycle.
+[^1]openBIM extends the benefits of BIM (Building Information Modeling) by improving the accessibility, usability, management and sustainability of digital data in the construction industry. At its core, openBIM is a collaborative process that is vendor neutral. openBIM processes can be defined as shareable project information that supports seamless collaboration for all project stakeholders. openBIM facilitates interoperability to benefit projects and assets throughout their lifecycle.
 
 openBIM empowers stakeholders to develop new ways of working by transforming traditional peer-to-peer work processes. By breaking down data silos, openBIM can significantly improve project delivery and asset performance. Companies that adopt an openBIM approach develop cross-party collaboration, improved communication and industry-standard sharing methods. This leads to better project outcomes, greater predictability, improved performance, and increased safety with reduced risk.
 Throughout the lifecycle of a facility, openBIM helps connect people, processes, and data to achieve facility delivery, operations, and maintenance goals. openBIM and seamless digital workflows make critical project information accessible to all stakeholders in a timely manner to support decision making at various stages of the project - from design to handover to rehabilitation and even demolition. openBIM eliminates the traditional problem of BIM data typically being constrained by proprietary vendor data formats, by discipline, or by phase of a project.

@@ -62,4 +62,6 @@ Préférences (Menu Windows)-> Données du projet -> Emplacement du projet ->**D
 ![localized image](../img/de/site.png)
 
 
-
+## IfcTypen - attribution automatique
+La touche de fonction **BIM... -> Attribuer automatiquement le type IFC** représente une possibilité d'attribution automatique des types IFC. Tous les aux éléments actifs auxquels aucun type IFC n'est attribué, un type IFC approprié est défini par cette fonction. Si le type ne peut pas être 
+peut être attribué automatiquement, l'élément de construction reçoit le type IFC IfcBuildingElementProxy, avec lequel au moins une description générale est attribuée.

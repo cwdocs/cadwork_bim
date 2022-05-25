@@ -41,7 +41,7 @@ Afterwards active elements can be converted to cadwork elements.
 ## Global - local zero point
 
 
-In order to keep and edit georeferenced models in the required accuracy of cadwork, the internal zero point is shifted when importing georeferenced IFC files. Elements too far away from the zero point would lead to accuracy problems. After confirming the shift, the displacement vector is saved internally and the global coordinates are saved (Settings -> Global nil point).
+In order to be able to hold and edit models placed on global coordinates in the required accuracy of cadwork, the internal zero point is shifted when importing the IFC files. Elements too far away from the zero point would lead to accuracy problems. After confirming the shift, the displacement vector is saved internally and the global coordinates are saved (Settings -> Global nil point).
 
 ![localized image](../img/de/shift.png){: style="width:400px"}
 
