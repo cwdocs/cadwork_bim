@@ -69,6 +69,20 @@ Projektdaten -> Projektort -> **Ortsbeschreibung Baustelle** (IfcSite)
 
 ![localized image](../img/de/site.png)
 
+## Containerelement - Aggregation
+Mit Hilfe des Containerelements lassen sich in cadwork Elemente zusammenfassen. 
+Nebst dem IfcElementAssembly lassen sich folgende zusammenfassungen generieren:
+
+* IfcDoor
+* IfcStair 
+* IfcWindow 
+* ohne Zusammenfassung
+
+![localized image](../img/de/assembly.jpg)
 
 
+## IfcTypen - automatische Zuweisung
+Eine Möglichkeit der automatischen Zuordnung von IFC-Typen stellt die Funktionstaste **BIM… -> IFC-Typ automatisch zuweisen** dar. Allen 
+aktiven Elementen, denen kein IFC-Typ zugewiesen ist, wird über diese Funktion ein passender IFC-Typ definiert. Kann der Typ nicht 
+automatisch eindeutig zugewiesen werden, bekommt das Bauteil den IFC-Typ IfcBuildingElementProxy, mit dem zumindest eine allgemeingültige Beschreibung vergeben ist.
 

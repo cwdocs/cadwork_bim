@@ -40,7 +40,7 @@ zu aktivieren, die Sie als cadwork Bauteile erzeugen möchten.
 
 ## Globaler - lokaler Nullpunkt
 
-Um georeferenzierte Modelle in der geforderten Genauigkeit von cadwork halten und bearbeiten zu können, wird beim Import von georeferenzierten IFC Dateien der interne Nullpunkt verschoben. 
+Um auf globalen Koordinaten platzierte Modelle in der geforderten Genauigkeit von cadwork halten und bearbeiten zu können, wird beim Import der IFC Dateien der interne Nullpunkt verschoben. 
 Zu weit vom Nullpunkt entfernte Elemente würden zu Genauigkeitsproblemen führen. 
 Nach Bestätigung der Verschiebung, wird der Verschiebungsvektor intern gespeichert und die globalen Koordinaten gespeichert (Einstellungen -> Globaler Nullpunkt)
 

@@ -34,7 +34,7 @@ Die IFC-Datenstruktur erlaubt, in Ergänzung zu den bereits vorhandenen Vorgaben
     * Der Mappingeintrag gilt für alle Elemente, die dieses Property haben!
 
 5. **Neuer Mapping-Eintrag aus Auswahl (empfohlen)**
-    * Wählen Sie im Tree Properties ein Property (Abbildung, angewähltes Property --> Renovation Status) an und klicken Sie anschliessend auf "Neuer Mapping-Eintrag aus Auswahl". Die Bezeichnungen des Properties werden automatisch in die Eingabefelder übernommen. Wenn Sie nun die Checkbox "Kreire User-Attribute gem. property-Name" aktiveren, wird beim Mapping, falls das Attribut noch nicht existiert, ein neues Attribut am Ende der Liste erstellt (siehe GIF). Dieses Attribut erhält automatisch den Namen des Propertys. 
+    * Wählen Sie im Tree Properties ein Property (Abbildung, angewähltes Property --> Renovation Status), oder **ein ganzes Set** an und klicken Sie anschliessend auf "Neuer Mapping-Eintrag aus Auswahl". Die Bezeichnungen des Properties werden automatisch in die Eingabefelder übernommen. Wenn Sie nun die Checkbox "Kreire User-Attribute gem. property-Name" aktiveren, wird beim Mapping, falls das Attribut noch nicht existiert, ein neues Attribut am Ende der Liste erstellt (siehe GIF). Dieses Attribut erhält automatisch den Namen des Propertys. 
     * Der Mappingeintrag gilt für alle Elemente, die dieses Property haben!
 
 6. **Listenansicht zugeordnete Properties**

@@ -64,6 +64,7 @@ Die Bauteile sind nach Bauunter-, oder nach Baugruppe zusammengefasst. <br>
 ## Assemblies
 !!! info "  <br>Die IfcElementAssembly stellt komplexe Elementbaugruppen dar, die aus mehreren Elementen zusammengesetzt sind.<br> BEISPIEL Holz-, oder Stahlkonstruktionsbaugruppen, wie z. B. Fachwerke und verschiedene Arten von Rahmen, können durch die Entität IfcElementAssembly dargestellt werden. Auch Treppenabschnitte und andere vorgefertigte Elemente sind Beispiele für die allgemeine Entität IfcElementAssembly"
 
+
 * IfcElementAssembly
     * IfcPlate
     * IfcMember

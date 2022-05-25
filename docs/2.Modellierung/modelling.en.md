@@ -59,4 +59,7 @@ Preferences (top menu) -> Project data -> Project location _> **Site description
 ![localized image](../img/de/site.png)
 
 
-
+## IfcTypes - automatic assignment
+One possibility of automatic assignment of IFC types is the function key **BIM... -> Assign IFC type automatically**. All 
+active elements, to which no IFC type is assigned, a suitable IFC type is defined over this function. If the type cannot be 
+cannot be assigned automatically, the component is assigned the IFC type IfcBuildingElementProxy, with which at least a generally valid description is assigned.
