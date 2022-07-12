@@ -1,0 +1,34 @@
+name: Build
+on:
+  push:
+    branches: main
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Hello World
+        run: echo Hello, world!
+        
+      - name: Send mail
+        if: always()
+        uses: dawidd6/action-send-mail@v2
+        with:
+          
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_SERVER_PORT }}
+          
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.GH_MAIL }}
+          
+          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+          
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}. Some text has changed in the Docs, please make the updates in your language. Check changes on https://github.com/cwdocs/cadwork-bim/compare/develop...main and click on **Files changed**.
+          # attachments: '[{"path":"README.md"}]'
+          
+          to: ${{ secrets.EMAIL_RECIVER }}
+          cc: brunner@cadwork.swiss
+          # from email name
+          from: Michael Brunner
