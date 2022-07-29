@@ -9,7 +9,7 @@ La boîte de dialogue de configuration de l'export IFC peut être ouverte via Ex
 ## Données du projet
 ![localized image](../img/fr/dlg1.svg)
 
-[Définition du nom et du lieu du projet](../2.Modellierung/modelling.fr.md#ifcproject-ifcsite)
+[Définition du nom et du lieu du projet](../2_Modellierung/modelling.fr.md#ifcproject-ifcsite)
 
 1. **Données de projet générales**
     * En cochant cette case, vous exporterez le nom de projet dans l'IfcProject du futur fichier IFC. 
@@ -83,7 +83,7 @@ Pour les **"utilisateurs avancés"**  il est possible de créer ses propres corr
 ![localized image](../img/fr/dlg6.svg){: style="width:900px"}
 
 1. **Combiner éléments (recommandé)**
-    * Si des éléments architecturaux avec des composants sont créés dans un fichier 3d (z.B. [Holzrahmenwand](../5.Beispiele/examples.fr.md#plafond-a-ossature-bois)) avec des sous-groupes ou groupes renseignés en fonction des ensembles architecturaux, les éléments associés sont exportés vers le fichier IFC en tant qu'élements combinés, comme par exemple IfcWall.
+    * Si des éléments architecturaux avec des composants sont créés dans un fichier 3d (z.B. [Holzrahmenwand](../5_Beispiele/examples.fr.md#plafond-a-ossature-bois)) avec des sous-groupes ou groupes renseignés en fonction des ensembles architecturaux, les éléments associés sont exportés vers le fichier IFC en tant qu'élements combinés, comme par exemple IfcWall.
 
     * Dans le cas d'enveloppes massives ou madrier, pour les parois, les plafonds ou toits, même s'ils sont combinés sous des groupes ou sous groupes, les éléments de constructions seront créés dans le fichier IFC sans combinaison d'éléments. En effet, les enveloppes représentent les éléments de constructions et ne sont pas de simples enveloppe de planification de l'IFC.
     ![localized image](../img/wall.png "https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifcsharedbldgelements/lexical/ifcwallelementedcase.htm"){: style="width:400px"}

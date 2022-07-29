@@ -1,38 +1,32 @@
-site_name: BIM Kompendium
+site_name: BIM Compendium
 site_url: https://cadwork-bim.readthedocs.io/de/latest/
 site_author: Michael Brunner
+copyright: Copyright © 2021 - 2022 cadwork
 theme:
-    name: material
-    nav_style: dark
-    logo: cw_logo.svg
-    version: v29
-    palette:
-    - scheme: default
-      toggle:
-        name: Switch to light mode
-        icon: material/weather-sunny
-    - scheme: slate
-      #primary: grey
-      #accent: blue
-      toggle:
-        name: Switch to dark mode
-        icon: material/weather-night
-    features:
-    - content.code.annotate
-    # - content.tabs.link
-    # - header.autohide
-    # - navigation.expand
-    # - navigation.indexes
-    # - navigation.instant
-    # - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    # - navigation.tracking
-    - search.highlight
-    - search.share
+  name: material
+  logo: cw_logo.svg
+  favicon: cw_logo.svg
+  version: V29
+  palette:
+  - scheme: slate
+    primary: "light-blue"
+    accent: "pink"
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  - scheme: default
+    primary: "light-blue"
+    accent: "pink"
+    toggle:
+      icon: material/brightness-7 
+      name: Switch to dark mode
+  features:
     - search.suggest
-    # - toc.integrate
+    - search.highlight
+    - navigation.tabs
+    - toc.integrate
+    - navigation.tracking
+    - navigation.tabs.sticky
 markdown_extensions:
   - attr_list  
   - admonition
@@ -53,8 +47,6 @@ extra_css:
 
 
 extra:
-  generator: false
-  copyright: Copyright & copy; 2022 cadwork
   social:
     - icon: fontawesome/brands/github
       # link: https://github.com/Brunner246
@@ -72,27 +64,6 @@ extra:
   analytics:
     provider: google
     property: G-MT51DC3GS2
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          datas: 1
-          note:
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          datas: 0
-          note:
-            Thanks for your feedback!
-  consent:
-    title: Cookie consent
-    description: 
-      Wir verwenden Cookies, um die Effektivität unserer Dokumentation zu messen und um festzustellen, ob Sie
-      finden, wonach sie suchen. Mit Ihrer Zustimmung helfen Sie uns, unsere
-      unsere Dokumentation zu verbessern.
-    
-
 plugins:
   - pdf-export:
       verbose: true
@@ -101,32 +72,26 @@ plugins:
 
   - search:
       separator: '[\s\-\.\_]+'  
-  #- mkdocs-versioning:
-      #version: "Version 29" 
-  # - mkdocs-versioning:
-      # version: version 28.0
   - i18n:
       default_language: de
-      #default_language: !ENV [DEFAULT_LANGUAGE, "de"]
-      #default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
       languages:
         de: Deutsch
         fr: Français   
         en: English 
       nav_translations:
         fr:
-          1.Import: 1.Import
-          2.Modellierung: 2.Modélisation
-          3.Export: 3.Export
-          4.BCF: 4.BCF
-          5.Beispiele: 5.Exemples
-          6.Workflowsheets: 6.Workflowsheets
-          7.Über: 7.À propos de nous
+          1_Import: 1.Import
+          2_Modellierung: 2.Modélisation
+          3_Export: 3.Export
+          4_BCF: 4.BCF
+          5_Beispiele: 5.Exemples
+          6_Workflowsheets: 6.Workflowsheets
+          7_Über: 7.À propos de nous
         en:
-          1.Import: 1.Import
-          2.Modellierung: 2.Modelling
-          3.Export: 3.Export
-          4.BCF: 4.BCF
-          5.Beispiele: 5.Examples
-          6.Workflowsheets: 6.Workflowsheets
-          7.Über: 7.About
+          1_Import: 1.Import
+          2_Modellierung: 2.Modelling
+          3_Export: 3.Export
+          4_BCF: 4.BCF
+          5_Beispiele: 5.Examples
+          6_Workflowsheets: 6.Workflowsheets
+          7_Über: 7.About

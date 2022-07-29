@@ -36,7 +36,7 @@ Various settings can be made via the context menu. The options in the context me
     * Finished floor thickness. The summarised floor thickness is entered as one value. 
     * Elevation. Usually the Elevation height is based on top of of rough floor. 
     * Display one storey. Only the selected storey is visible, the others are hidden.
-    * [Bi-directional control](../1.Import/import.en.md#bi-direktionale-aktivierung)
+    * [Bi-directional control](../1_Import/import.en.md#bi-direktionale-aktivierung)
 3. Help... <br>
     * Detailed information on the traffic lights system for visualisation. 
 

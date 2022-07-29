@@ -39,7 +39,7 @@ Mit einem Rechtsklick in das BIM-Management-Tool öffnet sich das Kontext-Menü.
     * Anzeigen der Fussbodenaufbau-Stärke. Die Fussbodenaufbau-Stärke wird als absoluten Wert "eingegeben". 
     * Anzeigen der Geschosshöhe. Die Geschosshöhe wird in der Regel über die Oberkante Rohboden definiert. 
     * Nur ein Gebäude sichtbar zeigen
-    * [Bi-direktionale Aktivierung](../1.Import/import.de.md#bi-direktionale-aktivierung)
+    * [Bi-direktionale Aktivierung](../1_Import/import.de.md#bi-direktionale-aktivierung)
 3. Hilfe <br>
     * Unter "Hilfe" wird die Bedeutung der "Ampelsteuerung" bezogen auf die Sichtbarkeit der Elemente erläutert. 
 

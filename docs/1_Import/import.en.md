@@ -143,10 +143,10 @@ If bi-directional activation is enabled, the element activated in 3d is also hig
 
 The IFC property mapper allows to import any attribute from the IFC elements to the converted elements in cadwork. The mapper is opened from the BMT context menu directly. 
 
-[Property Mapper in detail](../1.Import/property_mapper.en.md)
+[Property Mapper in detail](../1_Import/property_mapper.en.md)
 
 ![localized gif](../img/mapping.gif){: style="width:900px"}
 
 #### View by IFC-type
 
-[View by IFC-type](../1.Import/import.en.md#Changing hierarchical and structural view)
+[View by IFC-type](../1_Import/import.en.md#Changing hierarchical and structural view)
