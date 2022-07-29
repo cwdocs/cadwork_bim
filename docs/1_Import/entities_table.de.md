@@ -24,12 +24,14 @@ Mit einer exakten Definition der Austauschanforderungen im Projektteam können M
 Die jeweiligen Inhalte werden in Fachmodelle gegliedert (abgeleitet vom Referenzmodell). Prüfen Sie die Modelle auf deren Inhalt (Geometrie, Informationen). 
 Zu Beginn des Projekts muss ein Nullpunkt, die Geschossstruktur sowie das Planungsvorgehen (Prozesse) definiert werden. 
 
-[Checkliste Modellierung](../2.Modellierung/modelling.de.md#ifc-modellaufbau--export-aus-cadwork) :bulb:
+[Checkliste Modellierung](../2_Modellierung/modelling.de.md#ifc-modellaufbau--export-aus-cadwork) :bulb:
 
 ![localized image](../img/fachmodelle.jpg)
 
 
-## Holzbau-relevante IFC-Typen (Beispieltabelle - der Umfang der Daten ist projektabhängig)
+## Holzbau-relevante IFC-Typen 
+
+Beispieltabelle - der Umfang der Daten ist projektabhängig
 
 Entität           | empfohlen                           | nicht empfohlen | Kommentar
 -----------------|:-----------------------------------:|:-------------:|

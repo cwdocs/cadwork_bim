@@ -146,10 +146,10 @@ Lorsque le contrôle bidirectionnelle est activée, l'élement activé dans la f
 
 L'outil "Mappage d'attributs IFC" permet de mapper des propriétés (Propertieset) du fichier IFC dans les attributs des éléments cadwork. Il est appelé directement à partir du menu contextuel du BMT ou dans l'onglet Fenêtre.
 
-[Mappage d'attributs IFC en détail](../1.Import/property_mapper.fr.md)
+[Mappage d'attributs IFC en détail](../1_Import/property_mapper.fr.md)
 
 ![localized gif](../img/mapping.gif){: style="width:900px"}
 
 #### Tri par vue Type IFC
 
-[Tri par vue Type IFC](../1.Import/import.fr.md#struktur-ansichten)
+[Tri par vue Type IFC](../1_Import/import.fr.md#struktur-ansichten)

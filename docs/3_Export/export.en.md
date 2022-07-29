@@ -9,7 +9,7 @@ The IFC export configuration dialog can be opened via Export --> Files... --> Op
 ## Project data
 ![localized image](../img/en/dlg1.svg)
 
-[Definition Projektname & Projektort](../2.Modellierung/modelling.en.md#ifcproject-ifcsite)
+[Definition Projektname & Projektort](../2_Modellierung/modelling.en.md#ifcproject-ifcsite)
 
 1. **Project data general**.
     * The checkbox controls whether the project name is transferred to IfcProject. 
@@ -83,7 +83,7 @@ For this purpose, the IfcProperty are created in the user attributes. For exampl
 ![localized image](../img/en/dlg6.svg){: style="width:900px"}
 
 1. **Combine elements (recommended)**
-    * If architectural elements with components are created in a 3D file (e.g. [Framed Wall](../5.Beispiele/examples.en.md)) as well as each divided into assemblies or building subgroups, the associated elements are exported to the IFC file summarized with this option, as e.g. IfcWall.
+    * If architectural elements with components are created in a 3D file (e.g. [Framed Wall](../5_Beispiele/examples.en.md)) as well as each divided into assemblies or building subgroups, the associated elements are exported to the IFC file summarized with this option, as e.g. IfcWall.
 
     * If architectural elements are summarized by assemblies or building subgroups, the envelopes (timber frame and block building envelopes) are not output. This is because the individual components combined represent the wall, ceiling or roof.
     ![localized image](../img/wall.png "https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifcsharedbldgelements/lexical/ifcwallelementedcase.htm"){: style="width:400px"}

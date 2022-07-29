@@ -9,7 +9,7 @@ Der IFC-Export Konfigurationsdialog lässt sich via Exportieren --> Dateien... -
 ## Projektdaten
 ![localized image](../img/de/dlg1.svg)
 
-[Definition Projektname & Projektort](../2.Modellierung/modelling.de.md#ifcproject-ifcsite)
+[Definition Projektname & Projektort](../2_Modellierung/modelling.de.md#ifcproject-ifcsite)
 
 1. **Projektdaten allgemein**
     * Die Checkbox steuert, ob der Projektname ins IfcProject übernommen wird. 
@@ -86,7 +86,7 @@ Dazu werden in den User-Attributen die IfcProperty angelegt. Dies kann z.B. das 
 ![localized image](../img/de/dlg6.svg){: style="width:900px"}
 
 1. **Elemente zusammenfassen (empfohlen)**
-    * Sind in einer 3D-Datei Architekturelemente mit Bauteilen angelegt (z.B. [Holzrahmenwand](../5.Beispiele/examples.de.md#holzrahmenbauwand)) sowie jeweils in Baugruppen oder Bauuntergruppen eingeteilt, so werden die zugehörigen Elemente mit dieser Option zusammengefasst, als z.B. IfcWall, in die IFC-Datei exportiert.
+    * Sind in einer 3D-Datei Architekturelemente mit Bauteilen angelegt (z.B. [Holzrahmenwand](../5_Beispiele/examples.de.md#holzrahmenbauwand)) sowie jeweils in Baugruppen oder Bauuntergruppen eingeteilt, so werden die zugehörigen Elemente mit dieser Option zusammengefasst, als z.B. IfcWall, in die IFC-Datei exportiert.
 
     * Werden Architekturelemente nach Baugruppen oder Bauuntergruppen zusammengefasst, werden die Hüllen (Holzrahmenbau- und Blockbauhüllen) nicht mit ausgegeben. Dies kommt daher, dass die einzelnen Bauteile zusammengefasst die Wand, Decke oder das Dach darstellen.
     ![localized image](../img/wall.png "https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifcsharedbldgelements/lexical/ifcwallelementedcase.htm"){: style="width:400px"}

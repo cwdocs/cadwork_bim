@@ -73,7 +73,7 @@ Mit einem Rechtsklick im BMT öffnet sich das Kontext-Menü über welches die Im
 
 
 ## Das BMT Kontext Menü
-![localized image](../img/de/context2.svg)
+![localized image](../img/de/context2.svg){: style="width:400px"}
 
 ### 1. Sichtbarkeit 
 * Durch das Anwählen der Schaltflächen wird die Sichtbarkeit der Elemente gesteuert
@@ -126,21 +126,29 @@ Wenn die Bi-direktionale Aktivierung eingeschalten ist, springt der Zeiger in de
     * Das Achssystem der Elemente wird algorithmisch neu berechnet und ausgerichtet.
 3.	**Korrigieren Facetten**
     * Facetten, die auf einer Ebene liegen, werden, wenn möglich korrigiert.
-4.	**IfcElementAssembly** (zusammengesetztes Element)
+4. **Definierte Nord-Richtung berücksichtigen**
+    * Import der Richtung des "wahren Nordens" (True North), oder der geografischen Nordrichtung in Bezug auf das zugrunde liegende Projektkoordinatensystem.
+5. **Import geographische Koordinaten**
+    * Import der Längen-, Breitengrade sowie der Bezugshöhe (Elevation) in die Projektdaten. 
+6.	**IfcElementAssembly** (zusammengesetztes Element)
     * Die IfcElementAssembly repräsentiert Elementbaugruppen, die aus mehreren Elementen zusammengesetzt sind.
     * z. B. Fachwerkbinder, Stahlträger und verschiedene Arten von Rahmen, können durch die Entität IfcElementAssembly dargestellt werden. 
     * ![localized image](../img/steel_assembly.png)
     * Durch anwählen der Radiobuttons können Sie definieren, ob das IfcElementAssembly in cadwork **Ohne Zusammenfassung, als Gruppe verbinden (empfohlen), oder mit einem Containerelement** erzeugt werden soll.
 
-5.	**Architektur-Hüllen erzeugen**
+7.	**Architektur-Hüllen erzeugen**
     * Generieren eines Hüllkörpers, um importierte Bauteile vom Typ Wand, Decke, Dach.
         * Exchange-Objekt
         * ![localized image](../img/lignum1.png){: style="width:300px"}
         * konvertierte Elemente mit erzeugtem Hüllkörper
         * ![localized image](../img/lignum2.png){: style="width:300px"}
 
-6.  **Import der Bauteilfarben über alternative Methode**
+8.  **Import der Bauteilfarben über alternative Methode**
     * In IFC-Dateien werden Farben durch RGB-Werte mit einer sehr großen Anzahl von Farbmöglichkeiten beschrieben, die nur zufällig genau den 256 in cadwork zur Verfügung stehenden Farben entsprechen. In der Regel werden Bauteilfarben aus der IFC-Datei über den cadwork Import eingelesen, mit dem die erkannten RGB-Farben automatisch in eine möglichst passende cadwork-Farbe konvertiert wird. Manche Modelle werden in Viewern dennoch in einer anderen Farbe dargestellt, als sie später im cadwork konvertiert werden. In diesen Fällen können Sie – falls die Farbe für die Konstruktion entscheidend ist – die Farben über einen alternativen Konverter erzeugen lassen, der in manchen Situationen eher die angezeigten Farben übernimmt. Sollte die Konvertierung im ersten Schritt nicht den Vorgaben entsprechen, aktivieren Sie diese Option "Import der Bauteilfarben über alternative Methode" und importieren die Bauteile erneut.
+9.  **vereinfachte Visualisierung - Verschneidung von Öfnungen ignorieren**
+    * Mit dieser Option werden Verschneidungen von Bauteilen ignoriert. Je nach Importdaten, ermöglicht diese Funktion eine schnellere Visualisierung der Daten. 
+10. **Information - Hilfe**
+    * Dieser Button ist mit dem BIM-Kompendium verlinkt und führt sie direkt auf die Website. 
 
 
 #### IFC Attribut Mapper - PropertyMapping
@@ -151,10 +159,10 @@ Wenn die Bi-direktionale Aktivierung eingeschalten ist, springt der Zeiger in de
 
 Der IFC Attribut Mapper ermöglicht das Mappen von Eigenschaften (Properties) aus der IFC Datei in die Attribute von cadwork Elementen. Der Attribut Mapper wird direkt aus dem Kontext Menü des BMT aufgerufen. 
 
-[Attribut Mapper im Detail](../1.Import/property_mapper.de.md)
+[Attribut Mapper im Detail](../1_Import/property_mapper.de.md)
 
 ![localized gif](../img/mapping.gif){: style="width:900px"}
 
 #### Ansicht nach IFC-Typ
 
-[Ansicht nach Typ](../1.Import/import.de.md#struktur-ansichten)
+[Ansicht nach Typ](../1_Import/import.de.md#struktur-ansichten)

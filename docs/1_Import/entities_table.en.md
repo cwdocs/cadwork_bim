@@ -29,12 +29,14 @@ With an exact definition of the exchange requirements in the project team, model
 The respective contents are divided into subject models (Derived from the reference model). Check the models for their content (geometry, information). 
 At the beginning of the project, a zero point, the storey structure as well as the planning procedure (processes) must be defined.
 
-[Checklist Modelling](../2.Modellierung/modelling.en.md#ifc-model-setup--cadwork-export) :bulb:
+[Checklist Modelling](../2_Modellierung/modelling.en.md#ifc-model-setup--cadwork-export) :bulb:
 
 ![localized image](../img/fachmodelle.jpg)
 
 
-## IFC types relevant to timber construction (Example table - the scope of the data depends on the project)
+## IFC types relevant to timber construction 
+
+Example table - the scope of the data depends on the project
 
 Entities           | recommended                           | not recommended | comment
 -----------------|:-----------------------------------:|:-------------:|

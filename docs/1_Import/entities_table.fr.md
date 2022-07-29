@@ -29,12 +29,14 @@ Grâce à une définition précise des exigences d'échange au sein de l'équipe
 Les contenus respectifs sont divisés en modèles thématiques (dérivés du modèle de référence). Vérifiez le contenu des modèles (géométrie, informations). 
 Au début du projet, un point zéro, la structure des étages ainsi que la procédure de planification (processus) doivent être définis.
 
-[Checklist Modelling](../2.Modellierung/modelling.fr.md#ifc-model-setup-cadwork-export) :bulb:
+[Checklist Modelling](../2_Modellierung/modelling.fr.md#ifc-model-setup-cadwork-export) :bulb:
 
 ![localized image](../img/fachmodelle.jpg)
 
 
-## Types d'IFC pertinents pour la construction en bois (exemple de tableau - l'étendue des données dépend du projet)
+## Types d'IFC pertinents pour la construction en bois 
+
+exemple de tableau - l'étendue des données dépend du projet
 
 Entities           | recommended                           | not recommended | comment
 -----------------|:-----------------------------------:|:-------------:|
