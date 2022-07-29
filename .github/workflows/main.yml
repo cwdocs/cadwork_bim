@@ -25,7 +25,7 @@ jobs:
           
           subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
           
-          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}. Some text has changed in the Docs, please make the updates in your language. Check changes on https://github.com/cwdocs/cadwork_bim/compare/main...develop and click on **Files changed**.
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}. Some text has changed in the Docs, please make the updates in your language. Check changes on https://github.com/cwdocs/cadwork_bim/compare/develop...main and click on **Files changed**.
           # attachments: '[{"path":"README.md"}]'
           
           to: ${{ secrets.EMAIL_RECIVER }}
