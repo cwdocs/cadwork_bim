@@ -57,9 +57,17 @@ IFC-Typ Zuweisungen unter Benutzereinstellungen -> Liste der Attribute vordefini
 Über **Modifizieren -> BIM… -> Predefined type** können Sie die Typen definieren.
 So kann zum Beispiel ein IfcMember mit dem Type Enum **RAFTER** als Sparren spezifiziert werden. 
 
-Falls kein passender Typ in der Enumeration vorhanden ist, kann dieser auf **USERDEFINED** gesetzt werden und es lässt sich ein benutzerdefinierter Objekttype setzen. 
+Falls kein passender Typ in der Enumeration vorhanden ist, kann dieser auf **USERDEFINED** gesetzt werden und es lässt sich ein benutzerdefinierter Objekttyp setzen. 
+
+Objekttyp:
+
+Der Typ bezeichnet einen bestimmten Typ, der das Objekt näher bezeichnet. 
+Er enthält insbesondere den benutzerdefinierten Typ, wenn die Aufzählung des Attributs PredefinedType auf USERDEFINED gesetzt ist.
 
 Vorhandene PredefinedTypes werden beim Import einer IFC-Datei übernommen. 
+
+Beispiel IfcBeam (Ifc Dokumentation):<br>
+[IFC Dokumentation](https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifcsharedbldgelements/lexical/ifcbeamtypeenum.htm){target=_blank} :point_left: 
 
 ## IfcProject - IfcSite
 
