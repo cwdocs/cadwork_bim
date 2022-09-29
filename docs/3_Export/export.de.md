@@ -52,8 +52,13 @@ Dazu werden in den User-Attributen die IfcProperty angelegt. Dies kann z.B. das 
         ------------------------|-----------------------------------------------------------|-----------------------------------
         IfcInteger              | ganze Zahlen im positiven und negativen Bereich INTEGER   | 1,100,20        
         IfcReal	                | beliebige positive und negative Gleitkommazahlen REAL     | 0.1245, 1.458	                      
-        IfcBoolean	            | Form mit zwei Zuständen 0 & 1 BOOLEAN                     | True/False, "1" oder "0", WAHR/FALSCH, Ja/Nein, Vrai, Faux
+        IfcBoolean	            | Typ mit zwei Zuständen 0 & 1 BOOLEAN                      | True/False, "1" oder "0", WAHR/FALSCH, Ja/Nein, Vrai, Faux
         IfcLabel                | beliebiger Text STRING                                    | Holz, Hersteller      
+        IfcIdentifier           | Definierter Typ des einfachen Typs STRING zu Identifikationszwecken | Beam_01
+        IfcThermalTransmittanceMeasure | IfcThermalTransmittanceMeasure ist ein Maß für die Geschwindigkeit, mit der Energie durch einen Körper übertragen wird. <br> Wird normalerweise in Watt/m2 Kelvin gemessen. | 0.14 (Gleitkommazahl)
+        IfcText                 | Definierter Typ des einfachen Typs STRING zu Beschreibungszwecken | 
+
+
 
     * Für die angewählten Attribute kann mit einem **Rechtsklick** auf den Datentypen (z.B. IfcLabel) der Datentyp definiert werden (für Standard Psets zwingend notwendig). Im IFC Schema ist für jedes Property der Datentyp definiert. Damit die PropertySets korrekt exportiert werden, ist der Datentyp im Exportdialog zu bestimmen (**Rechtsklick auf das Property**).
 
