@@ -8,16 +8,16 @@ theme:
   favicon: cw_logo.svg
   version: V29
   palette:
-  - scheme: slate
-    accent: "pink"
-    toggle:
-      icon: material/brightness-4
-      name: Switch to light mode
-  - scheme: default
-    accent: "pink"
-    toggle:
-      icon: material/brightness-7 
-      name: Switch to dark mode
+    - scheme: slate
+      accent: "pink"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      accent: "pink"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
   features:
     - search.suggest
     - search.highlight
@@ -26,10 +26,10 @@ theme:
     - navigation.tracking
     - navigation.tabs.sticky
 markdown_extensions:
-  - attr_list  
+  - attr_list
   - admonition
   - toc:
-      permalink: false
+      permalink: true
   - meta
   - pymdownx.keys
   - footnotes:
@@ -42,7 +42,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets\extra.css
-
 
 extra:
   social:
@@ -59,6 +58,9 @@ extra:
     - name: English
       link: ./en/
       lang: en
+    - name: Espanol
+      link: ./es/
+      lang: es
   analytics:
     provider: google
     property: G-MT51DC3GS2
@@ -69,27 +71,36 @@ plugins:
       enabled_if_env: ENABLE_PDF_EXPORT #  (set environment variable ENABLE_PDF_EXPORT to 1 to enable)
 
   - search:
-      separator: '[\s\-\.\_]+'  
+      separator: '[\s\-\.\_]+'
   - i18n:
       default_language: de
       languages:
         de: Deutsch
-        fr: Français   
-        en: English 
+        fr: Français
+        en: English
+        es: Espanol
       nav_translations:
         fr:
-          1_Import: 1.Import
-          2_Modellierung: 2.Modélisation
-          3_Export: 3.Export
-          4_BCF: 4.BCF
-          5_Beispiele: 5.Exemples
-          6_Workflowsheets: 6.Workflowsheets
-          7_Über: 7.À propos de nous
+          1.Import: 1.Import
+          2.Modellierung: 2.Modélisation
+          3.Export: 3.Export
+          4.BCF: 4.BCF
+          5.Beispiele: 5.Exemples
+          6.Workflowsheets: 6.Workflowsheets
+          7.Über: 7.À propos de nous
         en:
-          1_Import: 1.Import
-          2_Modellierung: 2.Modelling
-          3_Export: 3.Export
-          4_BCF: 4.BCF
-          5_Beispiele: 5.Examples
-          6_Workflowsheets: 6.Workflowsheets
-          7_Über: 7.About
+          1.Import: 1.Import
+          2.Modellierung: 2.Modelling
+          3.Export: 3.Export
+          4.BCF: 4.BCF
+          5.Beispiele: 5.Examples
+          6.Workflowsheets: 6.Workflowsheets
+          7.Über: 7.About
+        es:
+          1.Import: 1.Importar
+          2.Modellierung: 2.Modelado
+          3.Export: 3.Exportar
+          4.BCF: 4.BCF
+          5.Beispiele: 5.Ejemplos
+          6.Workflowsheets: 6.Workflowsheets
+          7.Über: 7.sobre nosotros
