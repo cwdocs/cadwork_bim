@@ -1,6 +1,6 @@
 # Asignador de propiedades IFC (Property Mapper)
 
-![localized image](../img/sp/propertyMapper.png)
+![localized image](../img/es/propertyMapper.png)
 
 1. **Archivo IFC seleccionado**
     * Desplegable de archivos IFC cargados en cadwork 3D. Se puede elegir el que se va a configurar, si hay varios importados en 3D.

@@ -4,16 +4,16 @@
 
 La digitalización en la industria de la construcción está ganando cada vez más impulso. El método de modelado de información de construcción (BIM) sirve como punto de entrada. El proceso transparente con una alta calidad de información de descripción de objetos y formularios de calidad constituyen la base para las innovaciones digitales. Además de los aspectos técnicos, el método exige **un cambio cultural en la industria de la construcción**. BIM conduce a la transparencia en la comunicación y la colaboración. Es previsible que, en pocos años, como con la introducción de CAD en el último milenio, todo el proceso de ejecución a lo largo del ciclo de vida se adapte para que el método BIM asuma un papel central.
 
-**...todo se trata de la cultura...**
+**Es una filosofía de trabajo**
 
-### Q-preguntas :bulb:<br>
+### Q-preguntas, las preguntas que deben hacerse :bulb:<br>
 
 ¿**Quién** necesita, **cuándo** y **para qué**, **qué** información y **en qué** formato de archivo **de quién**?
 ¿**Quién** necesita **cuándo**, **qué**, **de quién**, **cómo** y **para qué** información **en qué** formato de archivo?
 
 ![localized image](img/steinzeit.png "https://www.pinterest.ch/borgman_/_saved/ Wissen IFC"){: style="width:700px"}
 
-## Begrifflichkeiten
+## Conceptos
 
 | Acrónimo | Terminología                     | Significado                                                     |
 | -------- | -------------------------------- | --------------------------------------------------------------- |
@@ -24,7 +24,7 @@ La digitalización en la industria de la construcción está ganando cada vez m�
 | IDM      | Information Delivery Manual      | Descripción de procesos                                         |
 | MVD      | Model View Defintion             | Traducción de procesos en necesidades técnicas de software      |
 | LOG      | Level of Geometry                | Nivel de exigencia geométrica                                   |
-| LOI      | Level of Information             | Nivel de exigencia alfanumérico                                 |
+| LOI      | Level of Information             | Nivel de exigencia alfanumérica                                 |
 | LOIN     | Level of Information Needed      | Información requerida del solicitante                           |
 | Pset     | Property Set                     | Contenedor para información de elementos                        |
 | BAP      | BIM-Plan de gestión de proyectos | Documento, que define basicx para la colaboración basada en BIM |
@@ -44,7 +44,7 @@ Las etapas de desarrollo de BIM proporcionan una clasificación clara al respect
 - `closedBIM`: Solución cerrada, uso de una sola familia de software
 - `openBIM`: Solución abierta, intercambio de información a través de varios productos habilitados para BIM.
 
-![localized image](img/sp/entwicklungsstufen.png){: style="width:700px"}
+![localized image](img/es/entwicklungsstufen.png){: style="width:700px"}
 
 ### openBIM
 
@@ -78,13 +78,13 @@ Los beneficios para las industrias de la construcción son:
 
 | openBIM                                                                                                           | Datos                               |
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| Los datos OpenBIM deben ser **legibles** para todos, **comentables** para muchos y **modificables** para algunos. | ![localized image](img/sp/data.png) |
+| Los datos OpenBIM deben ser **legibles** para todos, **comentables** para muchos y **modificables** para algunos. | ![localized image](img/es/data.png) |
 
 ### Factores para el éxito del BIM
 
 Solo teniendo en cuenta los siguientes factores puede llevarse a cabo con éxito un proyecto BIM.
 
-![localized image](img/sp/factores.png){: style="width:700px"}
+![localized image](img/es/factores.png){: style="width:700px"}
 
 ### Requisitos de información
 
@@ -98,13 +98,13 @@ Solo teniendo en cuenta los siguientes factores puede llevarse a cabo con éxito
 
 | Nivel de Geometría                      | Nivel de información                |
 | --------------------------------------- | ----------------------------------- |
-| ![localized image](img/sp/triangle.png) | ![localized image](img/sp/info.png) |
+| ![localized image](img/es/triangle.png) | ![localized image](img/es/info.png) |
 
 Las definiciones LOG y LOI deben hacerse de forma individual e independiente. Cabe señalar que la definición de LOD no es la suma de LOG y LOI, por lo que **no puede ser** LOD = LOI + LOG. Las definiciones de LOI y LOG deben definirse independientemente unas de otras, pero específicamente en relación con los objetivos y las aplicaciones correspondientes o con la información requerida para ello por las partes involucradas.
 
-![localized image](img/sp/LOD.png "https://bauen-digital.ch/assets/Downloads/de/180222-BdCH-SwissBIM-LOIN-Verstaendigung-web.pdf"){: style="width:700px"}
+![localized image](img/es/LOD.png "https://bauen-digital.ch/assets/Downloads/de/180222-BdCH-SwissBIM-LOIN-Verstaendigung-web.pdf"){: style="width:800px"}
 
-## 5. Definición de vista modelo (MVD: Model View Defintion)
+## Definición de vista modelo (MVD: Model View Defintion)
 
 Extraído del bsI Standards Model View Definition (MVD)[^3] <br>
 
@@ -117,13 +117,13 @@ Por ejemplo, un muro puede representarse como:
 1. Un segmento de línea (o curva) entre dos puntos;
 2. Uno de los muchos tipos de geometría 3D para la visualización y el análisis (por ejemplo, como sólidos extruidos o superficies trianguladas);
 3. Formas simples o con detalles de construcción específicos (capturando de pernos individuales, accesorios de tubería, cableado, etc.)...
-4. ...junto con datos como especificaciones técnicas, responsables, calendario e información sobre costes. Pero no todos los expertos en el campo de los procesos de diseño, suministro, fabricación y operación de un proyecto necesitan la misma información.
+4. Junto con datos como especificaciones técnicas, responsables, calendario e información sobre costes. Pero no todos los expertos en el campo de los procesos de diseño, suministro, fabricación y operación de un proyecto necesitan la misma información.
 
 Un MVD utiliza entidades de IFC para definir un estándar de intercambio para un caso de uso o flujo de trabajo particular. Este estándar de intercambio (MVD) es implementado por los proveedores de software.
 
 [^3]: [MVD-buildingsmart](https://www.buildingsmart.org/standards/bsi-standards/model-view-definitions-mvd/)
 
-![localized image](img/sp/mvd.png "https://biblus.accasoftware.com/de/model-view-definition-und-bim-datenaustausch/"){: style="width:700px"}
+![localized image](img/es/mvd.png "https://biblus.accasoftware.com/de/model-view-definition-und-bim-datenaustausch/"){: style="width:700px"}
 
 ## Esquema de datos IFC, estructura
 
@@ -135,7 +135,7 @@ La especificación de la IFC utiliza tres estructuras: estructura de ubicación,
 Los datos de localización definen la estructura espacial de un edificio en IFC. Define los lugares, edificios, plantas, componentes y habitaciones en una planta.
 Los edificios se representan dentro de la estructura funcional descomponiéndolos en clases de elementos funcionales individuales: por ejemplo, paredes, techos, postes, puertas o ventanas. Se asigna un identificador único (GUID) a cada elemento.
 
-![localized image](img/sp/BIMcert.png "BIMcert Handbuch Seite 32"){: style="width:700px"}
+![localized image](img/es/BIMCert.png "BIMcert Manual de usuario pág.32"){: style="width:700px"}
 
 Cada clase de elemento funcional está optimizada para el mapeo de su dominio funcional. Para ello, lleva un conjunto base estandarizado de características para describir las propiedades relevantes (parámetros), así como su geometría típica (atributos). Las características se organizan en grupos (property sets). Cada clase de elemento lleva un conjunto típico de propiedades (pset) que lleva las características más esenciales. Este conjunto de propiedades se designa con el sufijo "Common", por ejemplo, Pset_WallCommon o Pset_DoorCommon.
 Todos los elementos funcionales están vinculados a las plantas y, por tanto, también están asociados a un edificio. Además de la información alfanumérica (atributos, parámetros y características) y geométrica, un archivo IFC también contiene relaciones entre objetos.
@@ -166,13 +166,13 @@ Stachowiak, 1973:
 
 Los modelos deben crearse de acuerdo con las reglas definidas en el plan de modelado. [BIM Information Delivery Manual (Basics)] [BIM Informations-Lieferungs-Handbuch (Grundlagen)](https://baustein.xella.ch/media/downloads/BIM-Grundlagen-Informations-Lieferungs-Handbuch-3.pdf)
 
-![localized image](img/sp/rules.png "https://baustein.xella.ch/media/downloads/BIM-Grundlagen-Informations-Lieferungs-Handbuch-3.pdf"){: style="width:700px"}
+![localized image](img/es/rules.png "https://baustein.xella.ch/media/downloads/BIM-Grundlagen-Informations-Lieferungs-Handbuch-3.pdf"){: style="width:700px"}
 
-![localized image](img/sp/rules2.png){: style="width:700px"}
+![localized image](img/es/rules2.png){: style="width:700px"}
 
 Cuanto más precisas sean las reglas de modelización [modeling rules]() más fluida será la colaboración basada en modelos. Los problemas de fusión de los modelos pueden sortearse gracias a las reglas definidas y se hace posible una colaboración eficaz.
 
-![localized image](img/sp/modelle.png){: style="width:700px"}
+![localized image](img/es/modelle.png){: style="width:700px"}
 
 ## Posiconamiento relativo
 
@@ -194,7 +194,7 @@ Por lo tanto, la elección de la clase correcta durante la exportación IFC es m
 El IfcPropertySet es un **directorio que contiene propiedades dentro de un "árbol de propiedades"**. Las propiedades se organizan en grupos (llamados Psets = Property Sets). Cada clase de elemento lleva un Pset típico, que lleva las propiedades más esenciales. Este Pset se designa con el sufijo "Common", por ejemplo, Pset*WallCommon o Pset_BeamCommon.
 Además, se puede introducir cualquier conjunto de propiedades definido por el usuario. Los conjuntos de propiedades que no se declaren como parte de la especificación de IFC deben tener un valor de nombre que no contenga el prefijo "Pset*".
 
-![localized image](img/sp/pset.png "https://bimsource.de/bim-informations-lieferungs-handbuch-ilh/"){: style="width:700px"}
+![localized image](img/es/pset.png "https://bimsource.de/bim-informations-lieferungs-handbuch-ilh/"){: style="width:700px"}
 
 ## Geometría
 
@@ -210,8 +210,8 @@ La calidad y el método de geometría determinan la posibilidad de reutilizar lo
 ![localized image](img/brep.png){: style="width:700px"}
 ![localized image](img/brep_plate.png){: style="width:700px"}
 
-- el modelado implícito CSG ((Constructive Solid Geoemtry ó Geometría Sólida Constructiva), extrusiones, rotaciones) es un método geométrico para crear geometrías 3D arbitrarias a partir de operaciones entre cuerpos básicos.
-  - El volumen se describe mediante una secuencia de pasos de construcción. Los pasos de modelado hasta el resultado se almacenan (historial)..
+- El modelado implícito CSG ((Constructive Solid Geoemtry ó Geometría Sólida Constructiva), extrusiones, rotaciones) es un método geométrico para crear geometrías 3D arbitrarias a partir de operaciones entre cuerpos básicos.
+  - El volumen se describe mediante una secuencia de pasos de construcción. Los pasos de modelado hasta el resultado se almacenan (historial).
   - Se realizan operaciones booleanas al convertir elementos a cadwork. La geometría resultante se puede utilizar para la producción, por ejemplo, si coinciden factores como la precisión.
   - CSG
 

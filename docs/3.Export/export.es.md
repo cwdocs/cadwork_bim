@@ -1,4 +1,4 @@
-# Export
+# Exportación de IFC
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rGLje-72664" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -8,7 +8,7 @@ El cuadro de diálogo de configuración de exportación IFC se puede abrir a tra
 
 ## Datos del proyecto
 
-![localized image](../img/sp/dlg1.png)
+![localized image](../img/es/dlg1.png)
 
 [Definición del Nombre del proyecto y su ubicación](../2.Modellierung/modelling.es.md)
 
@@ -21,7 +21,7 @@ El cuadro de diálogo de configuración de exportación IFC se puede abrir a tra
 
 ## Atributos
 
-![localized image](../img/sp/dlg2.png)
+![localized image](../img/es/dlg2.png)
 
 1. **IFC-Layer** (Capa IFC)
    - Con la IFC-layer se ofrece otra posibilidad para estructurar los datos en diversos programas informáticos. Se recomienda la asignación del atributo Nombre.
@@ -38,12 +38,12 @@ El cuadro de diálogo de configuración de exportación IFC se puede abrir a tra
 Para el **"Usuario avanzado"** existe la posibilidad de crear sus propios Psets. Estos pueden ser Psets estándar como, por ejemplo, Pset_BeamCommon, o definidos por el usuario como, p.ej: "Properties_Lumber_XY".
 Para ello, se crean las IfcProperty en los atributos del usuario. Por ejemplo, esta puede ser la propiedad LoadBearing en User10. Las propiedades requeridas para el Pset se combinan en un conjunto en el diálogo de exportación en la pestaña "Definiciones de Pset".
 
-![localized image](../img/sp/dlg3.png)
+![localized image](../img/es/dlg3.png)
 
-![localized image](../img/sp/dlg4.png)
+![localized image](../img/es/dlg4.png)
 
 1. **Creación de conjuntos de propiedades definidos por el usuario**
-   - • Elija "Añadir atributo de usuario" para comenzar a definir property sets.
+   - Elija "Añadir atributo de usuario" para comenzar a definir property sets.
 2. **Tipos de datos**
 
    - Después de seleccionar el botón Añadir atributo de usuario, primero seleccionar los atributos de cadwork que se quiere incorporar para el pset de la opción Lista de menú.
@@ -55,7 +55,7 @@ Para ello, se crean las IfcProperty en los atributos del usuario. Por ejemplo, e
      | IfcBoolean  | Dos estados 0 & 1 - BOOLEAN                            | True/False, "1" oder "0" |
      | IfcLabel    | Cualquier texto - STRING                               | Holz, Hersteller         |
 
-   - • Para los atributos seleccionados, el tipo de datos puede definirse haciendo clic con el botón derecho en el tipo de datos (por ejemplo, IfcLabel) (obligatorio para los psets estándar). En el esquema IFC, el tipo de datos se define para cada propiedad. Para que los conjuntos de propiedades se exporten correctamente, el tipo de datos debe definirse en el diálogo de exportación (haciendo clic con el botón derecho del ratón en la propiedad).
+   - Para los atributos seleccionados, el tipo de datos puede definirse haciendo clic con el botón derecho en el tipo de datos (por ejemplo, IfcLabel) (obligatorio para los psets estándar). En el esquema IFC, el tipo de datos se define para cada propiedad. Para que los conjuntos de propiedades se exporten correctamente, el tipo de datos debe definirse en el diálogo de exportación (haciendo clic con el botón derecho del ratón en la propiedad).<br>
 
      ![localized image](../img/pset.gif)
 
@@ -69,25 +69,25 @@ Para ello, se crean las IfcProperty en los atributos del usuario. Por ejemplo, e
    - En la última lista del menú de opciones, debe seleccionar los tipos de IFC para los que se debe generar este Pset. Por lo que es posible crear Psets muy diferenciados para diferentes partes.
 
 5. **Cargar/Guardar**
-   - • Después de guardar los conjuntos de propiedades definidos por el usuario, puede volver a cargarlos en cualquier otro proyecto para futuras exportaciones IFC.
+   - Después de guardar los conjuntos de propiedades definidos por el usuario, puede volver a cargarlos en cualquier otro proyecto para futuras exportaciones IFC.
 
 ## Nivel de detalle
 
-![localized image](../img/sp/dlg5.png)
+![localized image](../img/es/dlg5.png)
 
 1. **Nivel de detalle**
    - El nivel de detalle del contenido del modelo se puede personalizar según los requisitos.
    - !!! info "**Asegúrese de exportar solo el contenido con los niveles de detalle necesarios para minimizar la cantidad de datos.**"
 2. **Método de geometría implícita**
-   - • Para la opción "Exportar geometría usando el método implícito (BETA)", puede encontrar una explicación más detallada en el capítulo [Geometría](../index.md#geometrie).
+   - Para la opción "Exportar geometría usando el método implícito (BETA)", puede encontrar una explicación más detallada en el capítulo [Geometría](../index.md#geometrie).
 
 ## Grupo de elementos
 
-![localized image](../img/sp/dlg6.png){: style="width:900px"}
+![localized image](../img/es/dlg6.png){: style="width:900px"}
 
 1. **Combinar elementos (recomendado)**
 
-   - • Si los elementos arquitectónicos con componentes se crean en un archivo 3D (p.ej:[Muro de entramado](../5.Beispiele/examples.es.md)) y cada uno se divide en conjuntos o subgrupos de edificios, los elementos asociados se exportan al archivo IFC resumido con esta opción, como p.ej:IfcWall.
+   - Si los elementos arquitectónicos con componentes se crean en un archivo 3D (p.ej:[Muro de entramado](../5.Beispiele/examples.es.md)) y cada uno se divide en conjuntos o subgrupos de edificios, los elementos asociados se exportan al archivo IFC resumido con esta opción, como p.ej:IfcWall.
 
    - Si los elementos arquitectónicos se resumen por conjuntos o subgrupos de edificios, las envolventes (estructura de madera y construcción de bloques) no se generan. Esto se debe a que los componentes individuales combinados representan la pared, el techo o el tejado.
      ![localized image](../img/wall.png "https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifcsharedbldgelements/lexical/ifcwallelementedcase.htm"){: style="width:400px"}

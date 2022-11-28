@@ -27,23 +27,23 @@ Con una definición exacta de los requisitos de intercambio en el equipo de proy
 
 Los contenidos respectivos se dividen en modelos temáticos (derivados del modelo de referencia). Compruebe el contenido de los modelos (geometría, información). Al principio del proyecto, se debe definir un punto cero, la estructura de las plantas, así como el procedimiento de planificación (procesos).
 
-[Checklist Modelling](../2.Modellierung/modelling.es.md#ifc-model-setup--cadwork-export) :bulb:
+[Listas de verificación para el Modelado](../2.Modellierung/modelling.es.md#ifc-model-setup--cadwork-export) :bulb:
 
-![localized image](../img/sp/fachmodelle.png)
+![localized image](../img/es/fachmodelle.png)
 
 ## Tipos de IFC relevantes para la construcción en madera
 
-Tabla de ejemplo - el alcance de los datos depende del proyecyo
+Tabla de ejemplo - el alcance de los datos depende del proyecto
 
-| Entities                      | recommended | not recommended | comment                                                                                                                     |
+| Entidades/Tipos               | Recomendado | No Recomendado | Comentario                                                                                                                     |
 | ----------------------------- | :---------: | :-------------: | --------------------------------------------------------------------------------------------------------------------------- |
 | IfcBeam                       |     :x:     |
-| IfcBuildingElementProxy       |     :x:     |       :x:       | situational <br> For the exchange of recesses, BuildingElementProxy's with the ObjectType **ProvisionForVoid** is required. |
+| IfcBuildingElementProxy       |     :x:     |       :x:       | Situacional <br> Para el intercambio de entidad, se necesita BuildingElementProxy's con **ProvisionForVoid**.|
 | IfcChimney                    |             |       :x:       |
 | IfcColumn                     |     :x:     |
-| IfcCovering                   |             |       :x:       | Only if necessary for construction                                                                                          |
-| IfcCurtainWall                |     :x:     |                 | as one volume (no geometric layers)                                                                                         |
-| IfcDoor                       |             |       :x:       | "order" the opening (opening element) of the door. Check the dimension of the opening with care.                            |
+| IfcCovering                   |             |       :x:       | Solo si es necesario para la construcción  |
+| IfcCurtainWall                |     :x:     |                 | Como un volumen (sin capas geometricas) |
+| IfcDoor                       |             |       :x:       | "Pedir" la apertura (opening element) de la puerta. Comprobar atentamente las dimensiones de la abertura. |
 | IfcFooting                    |     :x:     |
 | IfcMember                     |     :x:     |
 | IfcPile                       |             |       :x:       |
@@ -53,12 +53,12 @@ Tabla de ejemplo - el alcance de los datos depende del proyecyo
 | IfcRampFlight                 |             |       :x:       |
 | IfcRoof                       |     :x:     |
 | IfcShadingDevice              |             |       :x:       |
-| IfcSlab                       |     :x:     |                 | as one volume (no geometric layers)                                                                                         |
-| IfcStair                      |     :x:     |       :x:       | situational                                                                                                                 |
+| IfcSlab                       |     :x:     |                 | Como un volumen (sin capas geometricas)   |
+| IfcStair                      |     :x:     |       :x:       | Situational          |
 | IfcStairFlight                |             |       :x:       |
-| IfcWall                       |     :x:     |                 | as one volume (no geometric layers)                                                                                         |
-| IfcWindow                     |             |       :x:       | in most cases it is the opening and not the window that is relevant.                                                        |
-| IfcOpeningElement             |     :x:     |                 | Check the dimension of the opening with care.                                                                               |
+| IfcWall                       |     :x:     |                 | Como un volumen (sin capas geometricas) |
+| IfcWindow                     |             |       :x:       | en la mayoría de los casos es la apertura y no la ventana lo que es relevante. |
+| IfcOpeningElement             |     :x:     |                 | Comprobar atentamente las dimensiones de la abertura. |
 | IfcDistributionControlElement |             |       :x:       |
 | IfcDistributionFlowElement    |             |       :x:       |
 | IfcFurnishingElement          |             |       :x:       |
