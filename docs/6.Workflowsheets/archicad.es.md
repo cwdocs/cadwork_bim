@@ -17,7 +17,7 @@ Desarrollo de un modelo de construcción en ArchiCAD utilizando las herramientas
 -	No deberá haber intersecciones con cortes de inglete entre las paredes de soporte y las no portantes. Esto es especialmente importante si solo se filtra la estructura de soporte para la exportación de IFC.
 -	En la medida de lo posible, las paredes deben construirse en una o varias capas. Los perfiles complejos solo deben utilizarse cuando se requieren detalles especiales en la estructura de la pared.
 
-TSe debe tener en cuenta las siguientes características a la hora de crear una plantilla::
+Se debe tener en cuenta las siguientes características a la hora de crear una plantilla:
 -   Estructura de los componentes/perfiles multicapa (Estructura, rastrelado, revestimientos...)
 -   Función portante de los elementos (elementos no portantes, elementos portantes)
 
@@ -76,7 +76,7 @@ Para seguir trabajando con los componentes, hay que comprobar las situaciones de
 	 
 Los componentes de perfil de ArchiCAD se importan en capas y no como un volumen "uniforme". Para poder utilizar estos muros como envolvente de un elemento, por ejemplo, es necesario soldar las capas individuales del componente. Con la función "Borrar edición <Ctrl + D>" las ediciones existentes se deshacen después. 
 
-![localized image](../img/sp/walls.png){: style="width:600px"}
+![localized image](../img/es/walls.png){: style="width:600px"}
 
 **Aperturas**
 
@@ -84,7 +84,7 @@ En la configuración de IFC se puede definir si las aperturas deben ser recortad
 
 **Tip** :bulb: : Para generar automáticamente las aberturas durante la importación, se debe deshabilitar la función «Cortar aperturas». 
 
-![localized image](../img/sp/imp.png){: style="width:500px"}
+![localized image](../img/es/imp.png){: style="width:500px"}
 
 Es obligatorio definir la composición de las aperturas en los requisitos de intercambio del proyecto. 
 Sección vertical «Apertura»
@@ -104,9 +104,9 @@ Estas instrucciones describen la configuración de la exportación de los modelo
 
 -	Todos los elementos se asignan a la planta correcta.
 -	Todos los elementos tienen un nombre único.
--	**Tip** :bulb: : Asigna el atributo "Nombre" a la capa IFC. Esto permite a la arquitectura filtrar de forma óptima las posibilidades para los componentes.
+-	**Tip** :bulb: : Asigna el atributo "Nombre" a la capa IFC. Esto permite a la arquitectura "filtrar" de forma óptima las posibilidades para los componentes.
 
-    ![localized image](../img/sp/exp.png){: style="width:600px"}
+    ![localized image](../img/es/exp.png){: style="width:600px"}
  
 <br> 
 
@@ -122,7 +122,7 @@ Solamente se exportan los elementos definidos en los requisitos de intercambio. 
 
 **Tip** :bulb: : Intercambio de datos - **tanto como sea necesario pero lo menos posible.**
 
-![localized image](../img/sp/detaillierung.png){: style="width:600px"} 
+![localized image](../img/es/detaillierung.png){: style="width:600px"} 
 
 **Exportar componentes compuestos**
 
@@ -132,7 +132,7 @@ Se recomienda la siguiente configuración para el contorno correcto de los compo
 -	Las cubiertas contienen la entidad IFC correcta (muro, abertura, forjado, tejado, ...).
 
  
-![localized image](../img/sp/wand.png){: style="width:600px"} 
+![localized image](../img/es/wand.png){: style="width:600px"} 
 
 
 **Control de archivo IFC (quality gate)**

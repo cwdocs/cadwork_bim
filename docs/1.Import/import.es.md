@@ -6,9 +6,9 @@ Cadwork está certificado para el intercambio de datos en el esquema IFC 2x3.
 
 ![localized image](../img/certificate.jpg)
 
-Cuando se trata de datos IFC, el esquema del archivo, la versión del esquema, la definición de la vista del modelo ([model-view-definition])(../index.en.md#modelviewdefintion-mvd) así como el conocimiento sobre la estructura del archivo son cruciales. En las siguientes secciones se explicará el manejo del esquema IFC en Cadwork.
+Cuando se trata de datos IFC, el esquema del archivo, la versión del esquema, la definición de la vista del modelo [model-view-definition](../index.es.md#modelviewdefintion-mvd) así como el conocimiento sobre la estructura del archivo son cruciales. En las siguientes secciones se explicará el manejo del esquema IFC en Cadwork.
 
-## Importación de vídeo IFC
+## Vídeo de importación IFC
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/aq0Y8BCePD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -16,12 +16,12 @@ Cuando se trata de datos IFC, el esquema del archivo, la versión del esquema, l
 
 **Añadir archivos IFC** <br>
 Los archivos IFC se importan a cadwork a través de la herramienta de gestión BIM (BMT).
-La BMT (BIM-Management-Tool) es la herramienta central para trabajar según el método BIM. Desde aquí se pueden abrir todos los diálogos asociados y se pueden realizar todos los ajustes. Abra la BMT a través del botón Storey/BMT en el encabezado o a través del menú; Ventana -> Gestor BIM.
+La BMT (BIM-Management-Tool) es la herramienta central para trabajar según el método BIM. Desde aquí se pueden abrir todos los diálogos asociados y se pueden realizar todos los ajustes. Abrir la BMT a través del botón Storey/BMT en el encabezado o a través del menú; Ventana -> Gestor BIM.
 Los archivos IFC pueden añadirse mediante el símbolo "+" o con la función "arrastrar y soltar" (múltiples archivos posibles).
 
 ![localized image](../img/import.gif){: style="width:900px"}
 
-Los elementos importados se importan como **"Objetos de intercambio"**, los cuales sólo se utilizan para la visualización. No se pueden visualizar en el espacio 2D ni ser exportados a planos. Tampoco pueden editarse ni utilizarse para la comprobación de colisiones. Los objetos Exchange (de intercambio) no deben utilizarse como componentes de referencia. La precisión requerida sólo se consigue después de convertirlos.
+Los elementos importados se importan como **"Objetos de intercambio (Exchange)"**, los cuales sólo se utilizan para la visualización. No se pueden visualizar en el espacio 2D ni ser exportados a planos. Tampoco pueden editarse ni utilizarse para la comprobación de colisiones. Los objetos Exchange (de intercambio) no deben utilizarse como componentes de referencia. La precisión requerida sólo se consigue después de convertirlos.
 
 ### Activar elementos
 
@@ -40,7 +40,7 @@ Después, los elementos activos pueden convertirse en elementos de cadwork.
 
 Con el fin de mantener y editar modelos georreferenciados con la precisión requerida por cadwork, el punto cero interno se desplaza al importar archivos IFC georreferenciados. Los elementos demasiado alejados del punto cero pueden provocar problemas de precisión. Después de confirmar el cambio, el vector de desplazamiento se guarda internamente y las coordenadas globales se guardan (Ajustes -> Pto. cero global).
 
-![localized image](../img/sp/shift.png){: style="width:400px"}
+![localized image](../img/es/shift.png){: style="width:400px"}
 
 Al exportar el contenido requerido del modelo desde cadwork, se tiene en cuenta el vector de desplazamiento y el origen del modelo es colocado en la posición original.
 
@@ -62,13 +62,13 @@ En la segunda pestaña generada tras importar y convertir el ifc, al hacer clic 
 
 ![localized image](../img/view.gif){: style="width:900px"}
 
-En este menú también se puede abrir el diálogo de configuración de importación IFC..
+En este menú también se puede abrir el diálogo de configuración de importación IFC.
 
 ![localized image](../img/imp_options.gif){: style="width:900px"}
 
 ## El menú contextual de BMT
 
-![localized image](../img/sp/context2.png)
+![localized image](../img/es/context2.png)
 
 ### 1. Visibilidad
 
@@ -78,15 +78,15 @@ En este menú también se puede abrir el diálogo de configuración de importaci
 
 - El estado de activación de los elementos se establece como activo o inactivo.
 - La vista en árbol minimizada puede ser maximizada y viceversa. <br>
-  ![localized image](../img/sp/tree.png){: style="width:400px"}
+  ![localized image](../img/es/tree.png){: style="width:400px"}
 
 ### 3. Añadir elemento en cadwork & BCF
 
 - Los elementos de intercambio importados se pueden convertir a elementos cadwork con la opción **Añadir el elemento en Cadwork**. Ahora ya se pueden manejar como elementos constructivos normales en 3D. <br>
 
-  !!! info " **Consejo!** <br>Comprueba los elementos de los archivos IFC antes de importarlos a Cadwork en un visor externo (**QualityGate**) y después de la conversión vuelve a hacerlo de nuevo en cadwork para comprobar su exactitud y integridad."
+  !!! info " **Consejo!** <br> Comprueba los elementos de los archivos IFC antes de importarlos a Cadwork en un visor externo (**QualityGate**) y después de la conversión vuelve a hacerlo de nuevo en cadwork para comprobar su exactitud y integridad."
 
-  :bulb: [list of external IFC-viewer](https://bim-me-up.com/die-popularsten-ifc-viewer/){target=\_blank} <br>
+  :bulb: [Lista de visores IFC externos](https://bim-me-up.com/die-popularsten-ifc-viewer/){target=\_blank} <br>
 
   La conversión puede realizarse a través de **Modificar -> Añadir el elemento en Cadwork** o a través del **menú contextual en BMT**.
   Los elementos válidos se convierten en elementos de cadwork después de realizar la conversión. Los elementos no válidos no se pueden convertir en elementos nativos de cadwork. No válido significa que, por ejemplo, la geometría está descrita incorrectamente.
@@ -106,11 +106,9 @@ En este menú también se puede abrir el diálogo de configuración de importaci
 Si la activación bidireccional está activada, el elemento activado en 3d también se resalta en la lista de la vista en árbol.
 ![localized image](../img/bi.gif){: style="width:800px"}
 
-#### Configuración de importación IFC
+#### Configuración de importación IFC - **Diálogo de configuración**
 
-**Diálogo de configuración**
-
-![localized image](../img/sp/dlg7.png)
+![localized image](../img/es/dlg8.png)
 
 1. **Cortar abertura**
    - Definición de si la abertura debe ser recortada del contenedor de la pared o si el IfcOpeningElement se va a generar como un panel con abertura de tipo.
@@ -122,8 +120,9 @@ Si la activación bidireccional está activada, el elemento activado en 3d tambi
    - Las facetas en un plano se recalculan como una sola faceta. Algunas facetas trianguladas pueden reducirse con esta opción.
 4. **IfcElementAssembly** (Elemento compuesto)
 
-   - The IfcElementAssembly representa composiciones de elementos como cerchas combinadas, grupos de elementos de acero o entramados generales.
-   - ![localized image](../img/steel_assembly.png)
+   - Un IfcElementAssembly representa composiciones de elementos como cerchas combinadas, grupos de elementos de acero o entramados generales.
+   - Por ejemplo, celosías, vigas de acero y diferentes tipos de entramados, pueden ser representados por la entidad IfcElementAssembly. <br>
+     ![localized image](../img/steel_assembly.png)
    - Con los botones se puede elegir entre **eliminar el conjunto estructural (ninguno), agrupar los elementos (Unir) o generar elementos contenedores sobre ellos (Añadir volumen de embalaje automático)**
 
 5. **Crear volumen arquitectónico (envoltura)**
@@ -149,10 +148,10 @@ Si la activación bidireccional está activada, el elemento activado en 3d tambi
 
 El mapeador de propiedades IFC permite importar cualquier atributo de los elementos IFC a los elementos convertidos en cadwork. El mapeador se abre directamente desde el menú contextual del BMT.
 
-[Property Mapper in detail](../1.Import/property_mapper.es.md)
+[Property Mapper más en detalle](../1.Import/property_mapper.es.md)
 
 ![localized gif](../img/mapping.gif){: style="width:900px"}
 
 #### Ver por tipo de IFC
 
-[View by IFC-type](../1.Import/import.es.md)
+[Ver por IFC-type](../1.Import/import.es.md)
