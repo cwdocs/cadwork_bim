@@ -1,45 +1,49 @@
 # Cadwork BIM
+
 ![localized image](img/cadwork_bim.svg)
 
 Die Digitalisierung in der Baubranche nimmt immer mehr Fahrt auf. Die Methode Building Information Modeling (BIM) dient dabei als Einstieg. Der transparente Prozess mit einer hohen Qualität an objektbeschreibenden Informationen und Quality Gates bildet die Grundlage für digitale Innovationen. Neben technischen Aspekten fordert die Methode einen **Kulturwechsel in der Baubranche**. Projektbeteiligte führen transparente Informationsflüsse und liefern gezielt Daten zum definierten Zeitpunkt in der geforderten Qualität. BIM führt zu Transparenz in Kommunikation und Zusammenarbeit. Es ist absehbar, dass sich in wenigen Jahren, wie bei der Einführung von CAD im letzten Jahrtausend, der gesamte Abwicklungsprozess über den Lebenszyklus dahingehend anpassen wird, dass die BIM-Methode eine zentrale Rolle einnehmen wird.
 
 **...it's all about culture...**
 
-### W-Fragen :bulb:<br>
-**W**er benötigt, **w**ann, von **w**em, **w**ie sowie zu **w**elchem Zweck **w**elche Informationen in **w**elchem Datenformat? 
+### W-Fragen :bulb: <br>
+
+**W**er benötigt, **w**ann, von **w**em, **w**ie sowie zu **w**elchem Zweck **w**elche Informationen in **w**elchem Datenformat?
 
 ![localized image](img/steinzeit.png "https://www.pinterest.ch/borgman_/_saved/ Wissen IFC"){: style="width:700px"}
 
 ## Begrifflichkeiten
-Akronym | Begriff                           | Bedeutung
---------|-----------------------------------|-------------
-BIM     | Building Information Modeling     | Arbeitsmethode
-IFC	    | Industry Foundation Classes       | Transportiert Daten / Schema
-BCF	    | BIM Collaboration Format          | Koordinierung von Änderungen
-bsDD    | buildingSmart Data Dictionary     | Hostet Klassifizierungen und Eigenschaften in einer Datenbank
-IDM     | Information Delivery Manual       | Beschreibt Prozesse
-MVD     | Model View Defintion              | Übersetzt Prozesse in Software technische Anforderungen
-LOG     | Level of Geometry	                | Geometrische Anforderung - Stufe
-LOI	    | Level of Information	            | Alphanumerische Anforderung - Stufe
-LOIN    | Level of Information Needed	    | Informationsbedarf (Besteller)
-Pset    | Property Set	                    | Container für Informationseinheiten
-BAP     | BIM-Projektabwicklungsplan	    | Richtliniendokument, das die Grundlage einer BIM-basierten Zusammenarbeit definiert
-GUID    | Globally Unique Identifier        | Einmalige, nicht veränderbare 128 Bit Zahl - Kennungsnummer
+
+| Akronym | Begriff                       | Bedeutung                                                                           |
+| ------- | ----------------------------- | ----------------------------------------------------------------------------------- |
+| BIM     | Building Information Modeling | Arbeitsmethode                                                                      |
+| IFC     | Industry Foundation Classes   | Transportiert Daten / Schema                                                        |
+| BCF     | BIM Collaboration Format      | Koordinierung von Änderungen                                                        |
+| bsDD    | buildingSmart Data Dictionary | Hostet Klassifizierungen und Eigenschaften in einer Datenbank                       |
+| IDM     | Information Delivery Manual   | Beschreibt Prozesse                                                                 |
+| MVD     | Model View Defintion          | Übersetzt Prozesse in Software technische Anforderungen                             |
+| LOG     | Level of Geometry             | Geometrische Anforderung - Stufe                                                    |
+| LOI     | Level of Information          | Alphanumerische Anforderung - Stufe                                                 |
+| LOIN    | Level of Information Needed   | Informationsbedarf (Besteller)                                                      |
+| Pset    | Property Set                  | Container für Informationseinheiten                                                 |
+| BAP     | BIM-Projektabwicklungsplan    | Richtliniendokument, das die Grundlage einer BIM-basierten Zusammenarbeit definiert |
+| GUID    | Globally Unique Identifier    | Einmalige, nicht veränderbare 128 Bit Zahl - Kennungsnummer                         |
 
 Weitere Begrifflichkeiten zum Thema BIM finden sie im Glossar von bauen digital Schweiz :
-[Glossar bdCH](https://bauen-digital.ch/de/produkte/glossar/){target=_blank} :bulb:
+[Glossar bdCH](https://bauen-digital.ch/de/produkte/glossar/){target=\_blank} :bulb:
 
 ## der BIM-Prozess
+
 Die Vorteile der BIM-Methode sollten nicht nur technisch, sondern auch strukturell voll ausgenutzt werden. Daher ist der Einsatz der openBIM-Methode in allen Projekten empfehlenswert. Hinsichtlich Umsetzung und Zusammenarbeit ergeben sich folgende Vorteile:
 Software-Unabhängigkeit und Wahlfreiheit bei der Applikation aller Projektbeteiligter; daher kein Wettbewerbsnachteil aufgrund von Festsetzungen zu Applikationsverwendungen,
 langfristige Verwendbarkeit der Modelldaten (Nachhaltigkeit durch ISO-Zertifizierung von IFC und IDM) und
 Autarkie von software-spezifischen Modellinformationen (Transparenz).
 Die Entwicklungsstufen von BIM geben dahingehend eine klare Einstufung ab
 
-* `little BIM`: BIM-Insel, BIM-Einsatz nur in vereinzelten Disziplinen 
-* `BIG BIM`: BIM-Integration in allen Disziplinen 
-* `closedBIM`: geschlossene Lösung, Verwendung einer Software(familie) 
-* `openBIM`: offene Lösung, Austauschbarkeit über verschiedene BIM-fähige Software-Produkte
+- `little BIM`: BIM-Insel, BIM-Einsatz nur in vereinzelten Disziplinen
+- `BIG BIM`: BIM-Integration in allen Disziplinen
+- `closedBIM`: geschlossene Lösung, Verwendung einer Software(familie)
+- `openBIM`: offene Lösung, Austauschbarkeit über verschiedene BIM-fähige Software-Produkte
 
 ![localized image](img/entwicklungsstufen.png){: style="width:700px"}
 
@@ -59,56 +63,57 @@ openBIM ermöglicht einen zugänglichen digitalen Zwilling, der die zentrale Gru
 
 **Die Prinzipien von openBIM**
 
-1.	Interoperabilität ist der Schlüssel für die digitale Transformation in der Bauindustrie
-2.	Offene und neutrale Standards sollten entwickelt werden, um die Interoperabilität zu erleichtern
-3.	Ein zuverlässiger Datenaustausch hängt von unabhängigen Qualitätsmassstäben ab
-4.	Zusammenarbeits-Workflows werden durch offene und agile Datenformate verbessert
-5.	Flexibilität bei der Wahl der Technologie schafft mehr Wert für alle Beteiligten
-6.	Die Nachhaltigkeit wird durch langfristige, interoperable Datenstandards gesichert
+1. Interoperabilität ist der Schlüssel für die digitale Transformation in der Bauindustrie
+2. Offene und neutrale Standards sollten entwickelt werden, um die Interoperabilität zu erleichtern
+3. Ein zuverlässiger Datenaustausch hängt von unabhängigen Qualitätsmassstäben ab
+4. Zusammenarbeits-Workflows werden durch offene und agile Datenformate verbessert
+5. Flexibilität bei der Wahl der Technologie schafft mehr Wert für alle Beteiligten
+6. Die Nachhaltigkeit wird durch langfristige, interoperable Datenstandards gesichert
 
 Die Vorteile für die Bauindustrie sind:
 
-- [X] openBIM verbessert die Zusammenarbeit bei der Projektabwicklung erheblich
-- [X] openBIM ermöglicht ein besseres Asset-Management
-- [X] openBIM ermöglicht den Zugriff auf BIM-Daten, die während der Planung für den gesamten Lebenszyklus des Bauwerks erstellt wurden
-- [X] openBIM erweitert die Breite und Tiefe von BIM-Ergebnissen durch die Schaffung einer gemeinsamen Ausrichtung und Sprache. Sowie durch die Einhaltung internationaler Standards und gemeinsam definierter Arbeitsprozesse
-- [X] openBIM ermöglicht eine gemeinsame Datenumgebung, die den Anwendern Möglichkeiten zur Entwicklung neuer Arbeitsabläufe, Softwareanwendungen und Technologieautomatisierung bietet
-- [X] openBIM ermöglicht einen zugänglichen digitalen Zwilling, der die zentrale Grundlage für eine langfristige Datenstrategie für gebaute Anlagen bildet
+- [x] openBIM verbessert die Zusammenarbeit bei der Projektabwicklung erheblich
+- [x] openBIM ermöglicht ein besseres Asset-Management
+- [x] openBIM ermöglicht den Zugriff auf BIM-Daten, die während der Planung für den gesamten Lebenszyklus des Bauwerks erstellt wurden
+- [x] openBIM erweitert die Breite und Tiefe von BIM-Ergebnissen durch die Schaffung einer gemeinsamen Ausrichtung und Sprache. Sowie durch die Einhaltung internationaler Standards und gemeinsam definierter Arbeitsprozesse
+- [x] openBIM ermöglicht eine gemeinsame Datenumgebung, die den Anwendern Möglichkeiten zur Entwicklung neuer Arbeitsabläufe, Softwareanwendungen und Technologieautomatisierung bietet
+- [x] openBIM ermöglicht einen zugänglichen digitalen Zwilling, der die zentrale Grundlage für eine langfristige Datenstrategie für gebaute Anlagen bildet
 
-openBIM | Data                           
----------------------------------------------------------|-----------
-OpenBIM Daten müssen für alle **lesbar** für viele **kommentierbar** und für wenige **änderbar** sein. | ![Screenshot](img/data.png)
+| openBIM                                                                                                | Data                        |
+| ------------------------------------------------------------------------------------------------------ | --------------------------- |
+| OpenBIM Daten müssen für alle **lesbar** für viele **kommentierbar** und für wenige **änderbar** sein. | ![Screenshot](img/data.png) |
 
 ### Faktoren für ein erfolgreiches BIM
 
-Damit BIM erfolgreich in einem Projekt implementiert werden kann, müssen verschiedene Faktoren berücksichtigt werden. 
-Denn nur durch Berücksichtigung der folgenden Faktoren kann ein BIM Projekt erfolgreich umgesetzt werden. 
+Damit BIM erfolgreich in einem Projekt implementiert werden kann, müssen verschiedene Faktoren berücksichtigt werden.
+Denn nur durch Berücksichtigung der folgenden Faktoren kann ein BIM Projekt erfolgreich umgesetzt werden.
 
 ![](https://mermaid.ink/img/eyJjb2RlIjoiIGZsb3djaGFydCBMUlxuICAgIGlkMSgoTWVuc2NoZW4pKVxuICAgIGlkMigoUHJvemVzc2UpKVxuICAgIGlkMygoTm9ybWVuKSlcbiAgICBpZDQoKFNvZnR3YXJlKSlcbiAgICBpZDUoKCBEYXRlbiApKVxuICAgIGlkMSBvLS1vIGlkMlxuICAgIGlkMiBvLS1vIGlkM1xuICAgIGlkMyBvLS1vIGlkNFxuICAgIGlkNCBvLS1vIGlkNVxuICAgIHN0eWxlIGlkMSBmaWxsOiNmOWYsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjRweFxuICAgIHN0eWxlIGlkMiBmaWxsOiNiOWNjZWQsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjRweFxuICAgIHN0eWxlIGlkMyBmaWxsOiNmZmM1OGEsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjRweFxuICAgIHN0eWxlIGlkNCBmaWxsOiNhZDlkOWQsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjRweFxuICAgIHN0eWxlIGlkNSBmaWxsOiNjOWI2ZTQsc3Ryb2tlOiMzMzMsc3Ryb2tlLXdpZHRoOjRweCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
 
-
 ### Informationsanforderung
+
 Informationsanforderung (Level of Information Need, LOIN) und deren Umsetzung in den unterschiedlichen Detaillierungsstufen (LOG/LOI)
-Level of Geometry (LOG) 
-definiert den geometrischen Inhalt eines Modells. Mit dem Fortschritt des Projekts nimmt die geometrische Genauigkeit zu. 
-Level of Information (LOI) 
+Level of Geometry (LOG)
+definiert den geometrischen Inhalt eines Modells. Mit dem Fortschritt des Projekts nimmt die geometrische Genauigkeit zu.
+Level of Information (LOI)
 beschreibt den inhaltlichen (alphanumerischen) Informationsgrad eines Modells. Dazu werden die Attribute der zu verwendenden Objekte festgelegt.[^2]
 [^2]: [bauen-digital-CH](https://bauen-digital.ch/assets/Downloads/de/180222-BdCH-SwissBIM-LOIN-Verstaendigung-web.pdf)
 
-Level of Geomtry                | Level of Information                           
---------------------------------|------------------------------
-![localized image](img/triangle.svg) | ![localized image](img/info.svg)
+| Level of Geomtry                     | Level of Information             |
+| ------------------------------------ | -------------------------------- |
+| ![localized image](img/triangle.svg) | ![localized image](img/info.svg) |
 
 Die LOG- und LOI-Definitionen sind individuell und unabhängig vorzunehmen. Es ist zu beachten, dass die LOD-Definition nicht die Summe von LOG und LOI ist, somit nicht LOD = LOI + LOG lauten kann. LOI- und LOG-Definitionen sind voneinander unabhängig, aber projektspezifisch hinsichtlich Ziele und entsprechenden Anwendungen bzw. den hierfür benötigten Informationen durch die Beteiligten, zu definieren.
 
 ![localized image](img/LOD.png "https://bauen-digital.ch/assets/Downloads/de/180222-BdCH-SwissBIM-LOIN-Verstaendigung-web.pdf"){: style="width:700px"}
 
 ## ModelViewDefintion MVD
+
 Zitiert aus bsI Standards Model View Definition (MVD)[^3] <br>
 
 Im Allgemeinen ist eine MVD, oder "Model View Definition", eine Auswahl von Entitäten des gesamten IFC-Schemas, um eine bestimmte Verwendung oder einen Arbeitsablauf zu beschreiben. MVDs können so umfangreich sein wie fast das gesamte Schema (z.B. für die Archivierung eines Projekts) oder so spezifisch wie ein paar Objekttypen und zugehörige Daten (z.B. für die Preisgestaltung eines Vorhangfassadensystems).
 
-Um die BIM-Interoperabilität über Hunderte von Softwareanwendungen zu unterstützen, ist das IFC-Schema so konzipiert, dass es viele verschiedene Konfigurationen und Detailebenen aufnehmen kann. 
+Um die BIM-Interoperabilität über Hunderte von Softwareanwendungen zu unterstützen, ist das IFC-Schema so konzipiert, dass es viele verschiedene Konfigurationen und Detailebenen aufnehmen kann.
 
 Zum Beispiel kann eine Wand dargestellt werden:
 
@@ -121,10 +126,10 @@ eine MVD verwendet Entitäten aus IFC, um einen Austauschstandard für einen bes
 
 [^3]: [MVD-buildingsmart](https://www.buildingsmart.org/standards/bsi-standards/model-view-definitions-mvd/)
 
-
 ![localized image](img/mvd.jpg "https://biblus.accasoftware.com/de/model-view-definition-und-bim-datenaustausch/"){: style="width:700px"}
 
 ## Struktur IFC Datenschema
+
 Zitiert aus dem BIMcert Handbuch 2021[^4] <br>
 
 IFC ist in allen gängigen BIM-Applikationen integriert. Mittels der Software Certification durch buildingSMART international wird eine durchgängig hohe Übertragungsqualität abgesichert.
@@ -140,7 +145,8 @@ Alle funktionalen Elemente werden an Geschosse verknüpft und sind dadurch auch 
 Neben der Verortungsstruktur und der funktionalen Struktur existiert in der IFC-Datenstruktur auch eine Materialstruktur zur Deklaration materialbezogener Eigenschaften.
 [^4]: [BIMcert](https://bif.bauwesen.tuwien.ac.at/fortbildung/kurse/aktuelle-kurse/bimcert/)
 
-Das alphanumerische Dateiformat ist in zwei Bereiche struktuiert. In den Abschnitt HEADER, der die Informationen zur Datei enthält sowie in den Abschnitt DATA indem die Informationen zum Projekt enthalten sind.  
+Das alphanumerische Dateiformat ist in zwei Bereiche struktuiert. In den Abschnitt HEADER, der die Informationen zur Datei enthält sowie in den Abschnitt DATA indem die Informationen zum Projekt enthalten sind.
+
 ```
 ISO-10303-21;
 HEADER;
@@ -154,6 +160,7 @@ DATA;
 #3= IFCORGANIZATION($,'Cadwork Informatik AG','organization',$,$);
 #4= IFCPERSONANDORGANIZATION(#2,#3,$);
 ```
+
 ## Das Modell
 
 Stachowiak, 1973:
@@ -162,17 +169,16 @@ Stachowiak, 1973:
 
 Modelle sind nach den im Modellierungsplan definierten Regeln zu erstellen. [BIM Informations-Lieferungs-Handbuch (Grundlagen)](https://baustein.xella.ch/media/downloads/BIM-Grundlagen-Informations-Lieferungs-Handbuch-3.pdf)
 
-
 ![localized image](img/rules.png "https://baustein.xella.ch/media/downloads/BIM-Grundlagen-Informations-Lieferungs-Handbuch-3.pdf"){: style="width:700px"}
 
 ![localized image](img/rules2.png){: style="width:700px"}
 
-
-Je genauer die [Modellierungsregeln]() umgesetzt werden, umso reibungsloser verläuft die modellbasierte Zusammenarbeit. Probleme bei der Zusammenführung der Modelle können durch die definierten Regeln umgangen werden und eine effiziente Zusammenarbeit wird ermöglicht. 
+Je genauer die [Modellierungsregeln]() umgesetzt werden, umso reibungsloser verläuft die modellbasierte Zusammenarbeit. Probleme bei der Zusammenführung der Modelle können durch die definierten Regeln umgangen werden und eine effiziente Zusammenarbeit wird ermöglicht.
 
 ![localized image](img/modelle.png){: style="width:700px"}
 
 ## Relative Positionierung
+
 Die geometrische Modellierung im IFC-Datenmodell orientiert sich stark an der Verwendung eines lokalen Koordinatensystems.
 So wird beispielsweise die Platzierung einer Stütze nicht global, sondern bezogen auf das Koordinatensystem des jeweiligen Stockwerks festgelegt.
 Die Koordinaten der Stockwerke (IfcBuildingStorey) werden wiederum in Bezug auf das Koordinatensystem des Gebäudes (IfcBuilding) modelliert. Die Koordinaten des Gebäudes werden wiederum in Bezug auf das Koordinatensystem des Geländes (IfcSite) modelliert.
@@ -180,46 +186,46 @@ Die Koordinaten der Stockwerke (IfcBuildingStorey) werden wiederum in Bezug auf 
 ![localized image](img/hierachy.png){: style="width:700px"}
 
 ## IFC Entitäten
-Eine IFC-Klasse ist ein **eindeutig identifiziertes Objekt** im IFC-Datenmodell. Abhängig von der Klassenzuweisung und der Typendefinition erhält das Objekt innerhalb des IFC-Schemas bestimmte **Standardattribute** und **Abhängigkeiten**. 
+
+Eine IFC-Klasse ist ein **eindeutig identifiziertes Objekt** im IFC-Datenmodell. Abhängig von der Klassenzuweisung und der Typendefinition erhält das Objekt innerhalb des IFC-Schemas bestimmte **Standardattribute** und **Abhängigkeiten**.
 Die Wahl der richtigen Klasse beim IFC-Export ist daher sehr wichtig: Wird eine Wand nicht der Klasse IfcWall zugewiesen, bekommt sie nicht alle benötigten Attribute, um eindeutig beschrieben zu werden. Dann wird sie auch von anderen Programmen für die Koordination oder Auswertung nicht richtig interpretiert.
 
 ![localized image](img/IfcWall.jpg "https://bimsource.de/was-ist-ifc-industry-foundation-classes/"){: style="width:700px"}
 
-### PredefinedType 
-Ab Version 29 sind zusätzlich zu den IFC-Typen auch die Predefined Types eingeführt, die eine weitere Ebene der "Klassifizierung" zur weiteren Unterscheidung von Objekten bieten. Die zur Entität zugehörigen Typen können frei definiert werden und erlauben eine exaktere Beschreibung der Objekte. 
+### PredefinedType
 
+Ab Version 29 sind zusätzlich zu den IFC-Typen auch die Predefined Types eingeführt, die eine weitere Ebene der "Klassifizierung" zur weiteren Unterscheidung von Objekten bieten. Die zur Entität zugehörigen Typen können frei definiert werden und erlauben eine exaktere Beschreibung der Objekte.
 
 ## PropertySet
-Das IfcPropertySet ist ein **Container, der Eigenschaften innerhalb eines „Eigenschaftsbaums“ enthält**. Die Eigenschaften werden in Gruppen organisiert (sog. Psets = Property-Sets). Jede Elementklasse trägt ein typisches Pset, welches die wesentlichsten Merkmale trägt. Dieses Pset wird mit dem Suffix »Common« bezeichnet z.B. Pset_WallCommon oder Pset_BeamCommon.
-Darüber hinaus kann jeder benutzerdefinierte Eigenschaftssatz erfasst werden. Eigenschaftssätze, die nicht als Teil der IFC-Spezifikation deklariert sind, müssen einen Name-Wert haben, der nicht das Präfix "Pset_" enthält. 
+
+Das IfcPropertySet ist ein **Container, der Eigenschaften innerhalb eines „Eigenschaftsbaums“ enthält**. Die Eigenschaften werden in Gruppen organisiert (sog. Psets = Property-Sets). Jede Elementklasse trägt ein typisches Pset, welches die wesentlichsten Merkmale trägt. Dieses Pset wird mit dem Suffix »Common« bezeichnet z.B. Pset*WallCommon oder Pset_BeamCommon.
+Darüber hinaus kann jeder benutzerdefinierte Eigenschaftssatz erfasst werden. Eigenschaftssätze, die nicht als Teil der IFC-Spezifikation deklariert sind, müssen einen Name-Wert haben, der nicht das Präfix "Pset*" enthält.
 
 ![localized image](img/pset.png "https://bimsource.de/bim-informations-lieferungs-handbuch-ilh/"){: style="width:700px"}
 
 ## Geometrie
 
-Beginnend mit der 2,5D-Funktionalität, existiert schon seit über 30 Jahren die Fähigkeit dreidimensionale Objekte mit CAD-Programmen darzustellen. Um dreidimensionale Körper und nicht nur Flächen in einem Raum darstellen zu können, kamen die Technologien der BREP-, sowie die CSG-Methode dazu. 
-Das IFC Schema unterstützt verschiedene Methoden, um Geometrie abzubilden. Je nach verwendeter Geometriemethode, werden unterschiedliche Ergebnisse erreicht. 
-Die Qualität und Methode der Geometrie entscheidet über die Weiterverwendbarkeit der Elemente in cadwork. 
+Beginnend mit der 2,5D-Funktionalität, existiert schon seit über 30 Jahren die Fähigkeit dreidimensionale Objekte mit CAD-Programmen darzustellen. Um dreidimensionale Körper und nicht nur Flächen in einem Raum darstellen zu können, kamen die Technologien der BREP-, sowie die CSG-Methode dazu.
+Das IFC Schema unterstützt verschiedene Methoden, um Geometrie abzubilden. Je nach verwendeter Geometriemethode, werden unterschiedliche Ergebnisse erreicht.
+Die Qualität und Methode der Geometrie entscheidet über die Weiterverwendbarkeit der Elemente in cadwork.
 
-*	die explizite Modellierung mit der B-Rep Methode ((Boundary Representation), Begrenzungsflächenmodell) ist eine Geometriemethode, um beliebige 3D-Geometrien aus Begrenzungsflächen zu erstellen, die eine Hüllgeoemtrie vollständig umschliessen. Bei der B-Rep Methode wird immer nur das Ergebnis der Erstellung eines Körpers über die Begrenzungsflächen gespeichert.   
-    *	das Volumen wird über die begrenzenden Flächen beschrieben
-    *	komplexe Formen werden mit einer hohen Anzahl Facetten beschrieben
-    *   Darstellung nicht ebener Flächen -> NURBS (nichtuniforme rationale B-Splines). Diese Methode erlaubt das Konstruieren von Freiformflächen. 
+- die explizite Modellierung mit der B-Rep Methode ((Boundary Representation), Begrenzungsflächenmodell) ist eine Geometriemethode, um beliebige 3D-Geometrien aus Begrenzungsflächen zu erstellen, die eine Hüllgeoemtrie vollständig umschliessen. Bei der B-Rep Methode wird immer nur das Ergebnis der Erstellung eines Körpers über die Begrenzungsflächen gespeichert.
+  - das Volumen wird über die begrenzenden Flächen beschrieben
+  - komplexe Formen werden mit einer hohen Anzahl Facetten beschrieben
+  - Darstellung nicht ebener Flächen -> NURBS (nichtuniforme rationale B-Splines). Diese Methode erlaubt das Konstruieren von Freiformflächen.
 
 ![localized image](img/brep.png){: style="width:700px"}
 ![localized image](img/brep_plate.png){: style="width:700px"}
 
-* die implizite Modellierung CSG ((Constructive Solid Geoemtry), Extrusionen, Rotationen) ist eine Geoemetriemethode, um beliebige 3D-Geometrien aus Operationen zwischen Basiskörpern zu erstellen. 
-    * das Volumen wird über eine Abfolge von Konstruktionsschritten beschreiben. Die Modellierungsschritte zum Resultat werden gespeichert (history). 
-    *  Beim Konvertieren zu cadwork Elementen werden die booleschen Operationen ausgeführt. Die resultierende Geometrie kann, wenn Faktoren wie die Genauigkeit zusammenpassen, für z.B. die Produktion genutzt werden. 
-    * CSG
+- die implizite Modellierung CSG ((Constructive Solid Geoemtry), Extrusionen, Rotationen) ist eine Geoemetriemethode, um beliebige 3D-Geometrien aus Operationen zwischen Basiskörpern zu erstellen.
+  - das Volumen wird über eine Abfolge von Konstruktionsschritten beschreiben. Die Modellierungsschritte zum Resultat werden gespeichert (history).
+  - Beim Konvertieren zu cadwork Elementen werden die booleschen Operationen ausgeführt. Die resultierende Geometrie kann, wenn Faktoren wie die Genauigkeit zusammenpassen, für z.B. die Produktion genutzt werden.
+  - CSG
 
 ![localized image](img/csg.png){: style="width:700px"}
 ![localized image](img/csg_plate.png){: style="width:700px"}
 
-* Extrusion
-    * Fläche (Area) wird entlang eines Richtungsvektors extrudiert
+- Extrusion
+  - Fläche (Area) wird entlang eines Richtungsvektors extrudiert
 
 ![localized image](img/extrusion.png "https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcgeometricmodelresource/lexical/ifcextrudedareasolid.htm"){: style="width:700px"}
-
-

@@ -43,7 +43,7 @@ Tabla de ejemplo - el alcance de los datos depende del proyecto
 | IfcColumn                     |     :x:     |
 | IfcCovering                   |             |       :x:       | Solo si es necesario para la construcción  |
 | IfcCurtainWall                |     :x:     |                 | Como un volumen (sin capas geometricas) |
-| IfcDoor                       |             |       :x:       | "Pedir" la apertura (opening element) de la puerta. Comprobar atentamente las dimensiones de la abertura. |
+| IfcDoor                       |             |       :x:       |       La apertura (opening element) de la puerta. Comprobar atentamente las dimensiones de la apertura. |
 | IfcFooting                    |     :x:     |
 | IfcMember                     |     :x:     |
 | IfcPile                       |             |       :x:       |
