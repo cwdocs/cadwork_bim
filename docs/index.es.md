@@ -2,14 +2,13 @@
 
 ![localized image](img/cadwork_bim.svg){: style="width:700px"}
 
-La digitalización en la industria de la construcción está ganando cada vez más impulso. El método de modelado de información de construcción (BIM) sirve como punto de entrada. El proceso transparente con una alta calidad de información de descripción de objetos y formularios de calidad constituyen la base para las innovaciones digitales. Además de los aspectos técnicos, el método exige **un cambio cultural en la industria de la construcción**. BIM conduce a la transparencia en la comunicación y la colaboración. Es previsible que, en pocos años, como con la introducción de CAD en el último milenio, todo el proceso de ejecución a lo largo del ciclo de vida se adapte para que el método BIM asuma un papel central.
+La digitalización en la industria de la construcción está ganando cada vez más impulso. El método de modelado de información de construcción (BIM) sirve como punto de entrada. El proceso que describe los objetos definiendolos con alta calidad de información, constituye la base de la innovación digital. Además de los aspectos técnicos, el método exige **un cambio cultural en la industria de la construcción**. BIM conduce a la transparencia en la comunicación y la colaboración. Es previsible que, en pocos años, como con la introducción de CAD en el último milenio, todo el proceso de ejecución a lo largo del ciclo de vida se adapte para que el método BIM asuma un papel central.
 
 **Es una filosofía de trabajo**
 
 ### Q-preguntas, las preguntas que deben hacerse :bulb:<br>
 
-¿**Quién** necesita, **cuándo** y **para qué**, **qué** información y **en qué** formato de archivo **de quién**?
-¿**Quién** necesita **cuándo**, **qué**, **de quién**, **cómo** y **para qué** información **en qué** formato de archivo?
+¿**Quién** necesita, **cuándo**, **para qué**, **qué** información **en qué** formato de archivo y **de quién**?
 
 ![localized image](img/steinzeit.png "https://www.pinterest.ch/borgman_/_saved/ Wissen IFC"){: style="width:700px"}
 
@@ -26,7 +25,7 @@ La digitalización en la industria de la construcción está ganando cada vez m�
 | LOG      | Level of Geometry                | Nivel de exigencia geométrica                                   |
 | LOI      | Level of Information             | Nivel de exigencia alfanumérica                                 |
 | LOIN     | Level of Information Needed      | Información requerida del solicitante                           |
-| Pset     | Property Set                     | Contenedor para información de elementos                        |
+| Pset     | Property Set                     | Contenedor para información de grupos de elementos              |
 | BAP      | BIM-Plan de gestión de proyectos | Documento, que define basicx para la colaboración basada en BIM |
 | GUID     | Globally Unique Identifier       | Número de identificación único e inalterable de 128 bits        |
 
@@ -104,7 +103,7 @@ Las definiciones LOG y LOI deben hacerse de forma individual e independiente. Ca
 
 ![localized image](img/es/LOD.png "https://bauen-digital.ch/assets/Downloads/de/180222-BdCH-SwissBIM-LOIN-Verstaendigung-web.pdf"){: style="width:800px"}
 
-## Definición de vista modelo (MVD: Model View Defintion)
+## Definición de vista del modelo (MVD: Model View Defintion)
 
 Extraído del bsI Standards Model View Definition (MVD)[^3] <br>
 
@@ -170,7 +169,7 @@ Los modelos deben crearse de acuerdo con las reglas definidas en el plan de mode
 
 ![localized image](img/es/rules2.png){: style="width:700px"}
 
-Cuanto más precisas sean las reglas de modelización [modeling rules]() más fluida será la colaboración basada en modelos. Los problemas de fusión de los modelos pueden sortearse gracias a las reglas definidas y se hace posible una colaboración eficaz.
+Cuanto más precisas sean las reglas de modelización [modeling rules](https://docs.cadwork.com/projects/cwbim/en/latest/es/2.Modellierung/modelling/) más fluida será la colaboración basada en modelos. Los problemas de fusión de los modelos pueden sortearse gracias a las reglas definidas y se hace posible una colaboración eficaz.
 
 ![localized image](img/es/modelle.png){: style="width:700px"}
 

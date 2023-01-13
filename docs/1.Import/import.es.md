@@ -44,7 +44,7 @@ Con el fin de mantener y editar modelos georreferenciados con la precisión requ
 
 Al exportar el contenido requerido del modelo desde cadwork, se tiene en cuenta el vector de desplazamiento y el origen del modelo es colocado en la posición original.
 
-![localized image](../img/de/nillpoint.png){: style="width:400px"}
+![localized image](../img/es/nillpoint.png){: style="width:400px"}
 
 ![localized image](../img/true_north.png)
 <br>
@@ -84,7 +84,8 @@ En este menú también se puede abrir el diálogo de configuración de importaci
 
 - Los elementos de intercambio importados se pueden convertir a elementos cadwork con la opción **Añadir el elemento en Cadwork**. Ahora ya se pueden manejar como elementos constructivos normales en 3D. <br>
 
-  !!! info " **Consejo!** <br> Comprueba los elementos de los archivos IFC antes de importarlos a Cadwork en un visor externo (**QualityGate**) y después de la conversión vuelve a hacerlo de nuevo en cadwork para comprobar su exactitud y integridad."
+  !!! Info
+  **Consejo!** <br> Comprueba los elementos de los archivos IFC antes de importarlos a Cadwork en un visor externo (**QualityGate**) y después de la conversión vuelve a hacerlo de nuevo en cadwork para comprobar su exactitud y integridad."
 
   :bulb: [Lista de visores IFC externos](https://bim-me-up.com/die-popularsten-ifc-viewer/){target=\_blank} <br>
 
@@ -110,8 +111,8 @@ Si la activación bidireccional está activada, el elemento activado en 3d tambi
 
 ![localized image](../img/es/dlg8.png)
 
-1. **Cortar abertura**
-   - Definición de si la abertura debe ser recortada del contenedor de la pared o si el IfcOpeningElement se va a generar como un panel con abertura de tipo.
+1. **Cortar apertura**
+   - Definición de si la apertura debe ser recortada del contenedor de la pared o si el IfcOpeningElement se va a generar como un panel con abertura de tipo.
      - ![localized image](../img/opening.png "Aberturas generadas"){: style="width:300px"}
      - ![localized image](../img/opening2.png "Aberturas cortadas"){: style="width:300px"}
 2. **Recalcular los ejes locales (Optimizado para Cadwork)**
@@ -128,10 +129,10 @@ Si la activación bidireccional está activada, el elemento activado en 3d tambi
 5. **Crear volumen arquitectónico (envoltura)**
 
    - Aquí se genera un volumen arquitectónico en bruto (envoltura) de tipo muro, techo o suelo sobre los elementos referenciados
-     - Objeto Exchange (intercambio)
-       ![localized image](../img/lignum1.png){: style="width:300px"}
-     - Elementos convertidos con columen arquitectónico en bruto (Envoltura)
-       ![localized image](../img/lignum2.png){: style="width:300px"}
+     Objeto Exchange (intercambio) <br>
+     ![localized image](../img/lignum1.png){: style="width:300px"}
+     Elementos convertidos con volumen arquitectónico en bruto (Envoltura)<br>
+     ![localized image](../img/lignum2.png){: style="width:300px"}
 
 6. **Cargar**
 

@@ -21,7 +21,7 @@ Un Storey es el conjunto de todas las estancias de un edificio, que se encuentra
 Muchos softwares de CAD requieren alturas definidas además de la estructura de la planta (Storey). Por lo tanto, las alturas pueden definirse en la configuración del Storey. La altura, conforme a IFC, siempre debe medirse desde el borde superior del suelo sin terminar (como atributo IfcBuildingstorey: Elevation).<br>
 ![localized image](../img/es/storey_cw.png){: style="width:300px"}
 
-Un Storey incluye el techo y los componentes de "encima" (muros, columnas, etc.).
+Un Storey incluye el suelo y los componentes de "encima" (muros, columnas, etc.).
 ![localized image](../img/storey_bs.png "https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/link/ifcbuildingstorey.htm"){: style="width:600px"}
 
 ## El menú contextual
@@ -35,15 +35,14 @@ A través del menú contextual pueden realizarse diversos ajustes. Las opciones 
 
 1. Creación de un nuevo edificio (Building) y creación de una nueva planta (Storey) en el edificio activo.
 2. Información mostrada en BMT
-   - Espesor del suelo terminado. El grosor del suelo resumido se introduce como un valor.
-   - Elevación. Normalmente, la altura de elevación se basa en la parte superior del suelo en bruto
-   - Mostrar una planta (Storey). Sólo es visible la planta seleccionada, las demás quedan ocultas.
-   - [Control Bi-direccional](../1.Import/import.es.md)
+   * Espesor del suelo terminado. El grosor del suelo resumido se introduce como un valor.
+   * Elevación. Normalmente, la altura de elevación se basa en la parte superior del suelo en bruto
+   * Mostrar una planta (Storey). Sólo es visible la planta seleccionada, las demás quedan ocultas.
+   * [Control Bi-direccional](../1.Import/import.es.md)
 3. Ayuda... <br>
 
-   - Información detallada sobre el sistema de bombillas para su visualización.
+   * Al seleccionar está opción se redirige a la Guia BIM, donde se explicará la información detallada sobre el sistema de bombillas para su visualización.
 
-   ![localized image](../img/de/help.png){: style="width:300px"}
 
 ### Clic derecho en un edificio (Building) existente / en una planta (Storey) existente
 
@@ -52,18 +51,18 @@ A través del menú contextual pueden realizarse diversos ajustes. Las opciones 
 1. Configuración Buiding/Storey <br>
    ![localized image](../img/storey.gif){: style="width:900px"}
 2. Ajustes de visibilidad
-   - Tres opciones de filtrado para la visibilidad de la entrada del árbol elegida.
+   * Tres opciones de filtrado para la visibilidad de la entrada del árbol elegida.
 3. Estado de los elementos y maximización/minimización de la vista de árbol
-   - Activar o desactivar elementos en la entrada de árbol elegida
-   - Los directorios expandidos se pueden minimizar a través de este botón y viceversa
+   * Activar o desactivar elementos en la entrada de árbol elegida
+   * Los directorios expandidos se pueden minimizar a través de este botón y viceversa
 
 ## Asignar elementos Building/Storey
 
 **Opción A**
 
-1. Doble clic en el elemento en el BMT se activa el Building/Storey
-2. Los elementos recién modelados se asignan directamente a este Building/Storey
+* Doble clic en el elemento en el BMT se activa el Building/Storey
+* Los elementos recién modelados se asignan directamente a este Building/Storey
 
 **Opción B**
 
-- Los elementos activados pueden ser asignados a Buildings/Storeys existentes a través de Modificar -> BIM -> Building o a través de Modificar -> BIM ->Storey
+* Los elementos activados pueden ser asignados a Buildings/Storeys existentes a través de Modificar -> BIM -> Building o a través de Modificar -> BIM ->Storey
